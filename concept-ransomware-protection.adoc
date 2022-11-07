@@ -1,0 +1,106 @@
+---
+sidebar: sidebar 
+permalink: concept-ransomware-protection.html 
+keywords: artificial intelligence, personal data, personal information, sensitive, personal sensitive data, data sense, ransomware, ransomware protection, cyberstorage, cyber attack, cybersecurity 
+summary: Ransomware-Angriffe können das Unternehmen Zeit, Ressourcen und Image-Schäden kosten. Mit dem BlueXP Ransomware Protection Service können Sie relevante Informationen zur Cybersicherheit anzeigen und beurteilen, wie widerstandsfähig Ihr Unternehmen ist für einen Cyber-Angriff. Außerdem erhalten Sie eine Liste mit Alarmen und Lösungen, um Ihre Daten sicherer zu machen. 
+---
+= Erfahren Sie mehr über Ransomware-Schutz
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Ransomware-Angriffe können das Unternehmen Zeit, Ressourcen und Image-Schäden kosten. Mit dem BlueXP Ransomware Protection Service können Sie relevante Informationen zur Cybersicherheit anzeigen und beurteilen, wie widerstandsfähig Ihr Unternehmen ist für einen Cyber-Angriff. Außerdem erhalten Sie eine Liste mit Alarmen und Lösungen, um Ihre Daten sicherer zu machen.
+
+https://cloud.netapp.com/cyberstorage["Erfahren Sie mehr über Anwendungsfälle zum Schutz vor Ransomware"^].
+
+
+TIP: Der Ransomware-Schutz-Service ist derzeit ein Beta-Angebot.
+
+
+
+== Funktionen
+
+Ransomware Protection bietet einen zentralen Kontrollpunkt für das Management und die Optimierung der Datensicherheit in verschiedenen Arbeitsumgebungen und Infrastrukturebenen, um besser auf Bedrohungen reagieren zu können, wenn sie auftreten. Es bietet derzeit mehrere Funktionen, die Ihnen bei der Sicherung von Cyberspeichern helfen können. Aktuelle Funktionen bestimmen, wann:
+
+* Durch regelmäßige Snapshot-Kopien werden Volumes in Ihren Arbeitsumgebungen nicht geschützt.
+* Volumes in Ihren Arbeitsumgebungen sind durch das Erstellen von Backups in der Cloud mit nicht geschützt https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["Cloud-Backup"^].
+* Volumes in Ihren Arbeitsumgebungen sind mittels ONTAP SnapLock Technologie vor Modifizierung und Löschung auf DEM WORM Storage geschützt. https://docs.netapp.com/us-en/ontap/snaplock/snaplock-concept.html["Weitere Informationen zu SnapLock"^].
+* Daten in den Arbeitsumgebungen und Datenquellen werden nicht mit gescannt https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["Cloud-Daten Sinnvoll"^] Erkennen von Compliance- und Datenschutzbedenken und ermitteln von Optimierungschancen.
++
+Diese Funktion ist auch im Hinblick auf die Sicherung mit Ransomware wichtig, da sie Ihnen ein besseres Verständnis darüber ermöglicht, wo sich Ihre wichtigen (sensiblen, geschäftskritischen) Daten befinden, damit Sie sich ganz auf den Schutz konzentrieren können.
+
+* Falls eine Wiederherstellung aufgrund eines Ransomware-Angriffs erforderlich ist, werden die wichtigsten Datenkategorien nicht gesichert.
+* Eine anormale Zunahme des Prozentsatzes der verschlüsselten Dateien in einer Arbeitsumgebung oder Datenquelle ist aufgetreten.
++
+Dies kann ein Indikator dafür sein, dass ein Ransomware-Angriff in Ihrem Netzwerk begonnen hat.
+
+* Sensible Daten befinden sich in Dateien in einer Arbeitsumgebung oder in einer Datenquelle, und die Zugriffsberechtigungen sind zu hoch.
+* Benutzer wurden zu den Active Directory-Domänenadministratorgruppen hinzugefügt.
+* Die ONTAP Softwareversion auf Ihren Clustern ist veraltet und sollte aktualisiert werden, um die besten Schutz- und Sicherheitsfunktionen sowie die neuesten Funktionen bereitzustellen.
+* Das Auditing von NAS-Dateisystemen ist auf ONTAP-Systemen nicht aktiviert.
++
+Durch das Aktivieren der CIFS-Prüfung werden Überwachungsereignisse für Ihre Systemadministratoren generiert, die Informationen wie Änderungen der Ordnerrechte, fehlgeschlagene Lese- oder Schreibversuche sowie das Erstellen, Ändern oder Löschen von Dateien nachverfolgen.
+
+* Integrierte Anti-Ransomware-Funktionen sind auf Ihren ONTAP-Systemen nicht aktiviert.
++
+Die Anti-Ransomware-Funktionen von ONTAP erkennen proaktiv anormale Aktivitäten, die auf einen Ransomware-Angriff hindeuten könnten, und warnen vor diesen.
+
+* Wenn ONTAP Anti-Ransomware auf Ihren Systemen aktiviert ist, werden die verschiedenen Ransomware-Vorfälle als Warnmeldungen angezeigt.
+* Die Anzahl der hohen, mittleren und niedrigen Sicherheitslücken, die das Active IQ Digital Advisor-Tool auf Ihren ONTAP-Clustern gefunden hat.
++
+Sie können die Sicherheitsanfälligkeit anzeigen und anschließend die empfohlene Aktion befolgen, um das Problem zu beheben.
+
+
+
+link:task-analyze-ransomware-data.html["Sehen Sie sich an, wie Sie diese potenziellen Probleme im Dashboard zum Schutz vor Ransomware sehen können."]
+
+Beim Einsatz von Cloud Volumes ONTAP Systemen gibt es zusätzliche Ransomware-Schutzmaßnahmen, die sich direkt in der Arbeitsumgebung implementieren lassen. https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-protecting-ransomware.html["Zusätzlicher Schutz vor Ransomware – so geht's"^].
+
+
+
+== Unterstützte Arbeitsumgebungen und Datenquellen
+
+https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["Cloud-Daten Sinnvoll"^] Ist eine Voraussetzung für die Nutzung des Ransomware Protection Service. Nachdem Data Sense installiert und aktiviert ist, können Sie Ransomware Protection verwenden, um zu sehen, wie belastbar Ihre Daten ist, um Cyber-Angriff auf die folgenden Arten von Arbeitsumgebungen und Datenquellen:
+
+* Arbeitsumgebungen:*
+
+* Cloud Volumes ONTAP (implementiert in AWS, Azure oder GCP)
+* On-Premises ONTAP Cluster
+* Azure NetApp Dateien
+* Amazon FSX für ONTAP
+* Amazon S3
+
+
+*Datenquellen:*
+
+* File Shares von anderen Anbietern
+* Objekt-Storage (nutzt S3-Protokoll)
+* Datenbanken (Amazon RDS, MongoDB, MySQL, Oracle, PostgreSQL, SAP HANA, SQL SERVER)
+* OneDrive Accounts
+* SharePoint Online- und On-Premises-Accounts
+* Google Drive-Konten
+
+
+Ransomware Protection überwacht auch Ihre globale Active Directory-Konfiguration, wenn Sie haben https://docs.netapp.com/us-en/cloud-manager-data-sense/task-add-active-directory-datasense.html["Konfiguriert in Cloud Data Sense"^].
+
+
+
+== Funktionsweise von Ransomware-Schutz
+
+Auf hoher Ebene funktioniert Ransomware Protection wie folgt:
+
+. Ransomware Protection sammelt Informationen von Ihren Storage-Systemen, Cloud Data Sense, Cloud Backup und von anderen BlueXP und NetApp Ressourcen, um das Ransomware Protection Dashboard auszufüllen.
+. Sie verwenden das Ransomware-Schutz-Dashboard, um einen Überblick zu bekommen, wie gut Ihre Systeme geschützt sind.
+. Mithilfe der bereitgestellten Berichterstellungs-Tools können Sie den Schutz von Cyberspeichern unterstützen.
+
+
+
+
+== Kosten
+
+Es gibt keine separaten Kosten für den Ransomware-Schutz-Service während der Beta.

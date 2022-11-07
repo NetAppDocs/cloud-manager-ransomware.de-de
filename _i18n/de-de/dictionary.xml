@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="2de372392bbfb414e777416020edfa6d" category="summary">Mit dem Ransomware-Schutz-Service können Sie relevante Informationen über Cybersicherheit anzeigen und beurteilen, wie belastbar Ihre Daten für einen Cyber-Angriff ist.</block>
+  <block id="3d6eff6991e5216e6290ee43be3ac04a" category="doc">Dokumentation zum Schutz durch Ransomware</block>
+  <block id="243263104c829e77835d632f591230d5" category="summary">Bevor Sie einen Support-Fall beim technischen Support von NetApp eröffnen können, müssen Sie BlueXP ein NetApp Support Site Konto hinzufügen und sich dann für den Support registrieren.</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">Für den Support anmelden</block>
+  <block id="8bf30fadf784022b073adb9233678a71" category="paragraph">Bevor Sie einen Support-Fall beim technischen Support von NetApp eröffnen können, müssen Sie BlueXP einen NetApp Support Site Account (NSS) hinzufügen und sich dann für den Support registrieren.</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">Übersicht über die Support-Registrierung</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">Es gibt zwei Registrierungsformulare, um die Support-Berechtigung zu aktivieren:</block>
+  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">Registrieren Ihres BlueXP-Konto-ID-Support-Abonnements (Ihre 20-stellige Seriennummer 960xxxxxxxxx auf der Seite Support-Ressourcen in BlueXP).</block>
+  <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">Dies dient als Ihre einzige Support-Abonnement-ID für jeden Service in BlueXP. Jedes BlueXP-Abonnement für Support auf Kontoebene muss registriert werden.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">Registrieren der Cloud Volumes ONTAP Seriennummern für ein Abonnement auf dem Markt Ihres Cloud-Providers (dies sind 20-stellige Seriennummern von 909201xxxxxx).</block>
+  <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">Diese Seriennummern werden als _PAYGO Seriennummern_ bezeichnet und werden zum Zeitpunkt der Cloud Volumes ONTAP Implementierung von BlueXP generiert.</block>
+  <block id="9d4125dc88bb9db6eb4be939905761ce" category="paragraph">Durch das Registrieren beider Arten von Seriennummern können Kunden Funktionen wie das Öffnen von Support-Tickets und die automatische Erstellung von Support-Cases nutzen.</block>
+  <block id="98bc603dcb6d5a57d540b13b541fa41a" category="paragraph">Ihre Anmeldung hängt davon ab, ob Sie ein neuer oder bereits bestehender Kunde oder Partner sind.</block>
+  <block id="e5646198d2e01aab2cec9ef946f9c53a" category="list-text">Bestehender Kunde oder Partner</block>
+  <block id="76928f97884b4332b83c5be9b99d93d3" category="paragraph">Als bestehender NetApp Kunde oder Partner können Sie mit Ihrem NSS SSO-Konto (NetApp Support Site) die oben genannten Registrierungen durchführen. Im Support Dashboard stellt BlueXP eine *NSS Management*-Seite zur Verfügung, auf der Sie Ihr NSS-Konto hinzufügen können. Sobald Sie Ihr NSS-Konto hinzugefügt haben, registriert BlueXP diese Seriennummern automatisch für Sie.</block>
+  <block id="4e6af37fb81d50483d832d4de6e2b26a" category="inline-xref">Erfahren Sie, wie Sie Ihr NSS-Konto hinzufügen</block>
+  <block id="8d80298f51b7ff2da78e26e60195c7a3" category="paragraph"><block ref="cbec7c1a4a2acff5e84457dd449ac01d" category="inline-xref-macro-rx"></block>.</block>
+  <block id="1c91f3adc957364cb01d33e100ee1ea3" category="list-text">Neu bei NetApp</block>
+  <block id="679f2cae4657f177cc89458d49c97e5f" category="paragraph">Wenn Sie neu bei NetApp sind, müssen Sie eine einmalige Registrierung Ihrer BlueXP Account ID Seriennummer auf der Support-Registrierungsseite von NetApp abschließen. Sobald Sie diese Registrierung abgeschlossen und ein neues NSS-Konto erstellt haben, können Sie dieses Konto in BlueXP verwenden, um sich in Zukunft automatisch zu registrieren.</block>
+  <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">Erfahren Sie, wie Sie sich mit NetApp anmelden können</block>
+  <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>.</block>
+  <block id="a92ec860f505b318fd0f0eba6165d607" category="section-title">Fügen Sie ein NSS-Konto zu BlueXP hinzu</block>
+  <block id="77bdda0b5be7d2725f2b5941d74db0e2" category="paragraph">Über das Support Dashboard können Sie Ihre NetApp Support Site Konten für die Verwendung mit Cloud Manager hinzufügen und managen.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Wenn Sie über ein Konto auf Kundenebene verfügen, können Sie ein oder mehrere NSS-Konten hinzufügen.</block>
+  <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">Wenn Sie ein Partner- oder Reseller-Konto haben, können Sie ein oder mehrere NSS-Konten hinzufügen, aber sie können nicht neben Kunden-Level-Accounts hinzugefügt werden.</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Schritte</block>
+  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">Klicken Sie oben rechts in der BlueXP-Konsole auf das Hilfesymbol, und wählen Sie *Support*.</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Ein Screenshot des Hilfemenü, in dem Support die erste Option aufgeführt ist</block>
+  <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">Klicken Sie auf *NSS Management &gt; NSS-Konto hinzufügen*.</block>
+  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">Wenn Sie dazu aufgefordert werden, klicken Sie auf *Weiter*, um auf eine Microsoft-Login-Seite umgeleitet zu werden.</block>
+  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp verwendet Microsoft Azure Active Directory als Identitäts-Provider für Authentifizierungsservices, die sich speziell für Support und Lizenzierung entscheiden.</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">Geben Sie auf der Anmeldeseite die registrierte E-Mail-Adresse und das Kennwort Ihrer NetApp Support Site an, um den Authentifizierungsvorgang durchzuführen.</block>
+  <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">Mit diesen Aktionen kann BlueXP Ihr NSS-Konto für Dinge wie Lizenzdownloads, Softwareaktualisierungs-Verifizierung und zukünftige Support-Registrierungen verwenden.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">Beachten Sie Folgendes:</block>
+  <block id="0f0a0d646a020cf3a65ce82ada4cfb01" category="list-text">Das Konto muss ein Kundenkonto auf Kundenebene sein (kein Gast- oder Temporkonto).</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">Ein Symbol von drei horizontalen Punkten</block>
+  <block id="ff67299785d475e87002751aa6ab5eb8" category="list-text">Bei der erfolgreichen Anmeldung wird NetApp den NSS-Benutzernamen speichern. Dies ist eine vom System generierte ID, die Ihrer E-Mail zugeordnet wird. Auf der Seite *NSS Management* können Sie Ihre E-Mail über anzeigen <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> Menü.</block>
+  <block id="505da61efe6bebebbaf092da18f64613" category="list-text">Wenn Sie jemals Ihre Anmeldeinformationen aktualisieren müssen, gibt es im auch eine *Anmeldeinformationen aktualisieren*-Option <block ref="0d0843f26c0819e5369f690fefbf68b7" category="inline-image-macro-rx" type="image"></block> Menü. Wenn Sie diese Option verwenden, werden Sie aufgefordert, sich erneut anzumelden.</block>
+  <block id="ad56c7289bc13dcf4f78c285f7f03878" category="section-title">Mit NetApp registrieren</block>
+  <block id="f1bac79c2c71fbd93863b9fbd718094c" category="paragraph">Wie Sie sich für den NetApp Support registrieren, hängt davon ab, ob Sie bereits über einen NSS Account (NetApp Support Site) verfügen.</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">Bestandskunde mit NSS-Konto</block>
+  <block id="7e177185e7eddff33dd8f3aeb7551132" category="paragraph">Wenn Sie ein NetApp Kunde mit einem NSS-Konto sind, müssen Sie sich lediglich für den Support über BlueXP registrieren.</block>
+  <block id="25b94e7b58140f12be91fa8fd935fa59" category="list-text">Wenn Sie dies noch nicht getan haben, fügen Sie Ihr NSS-Konto bei BlueXP hinzu.</block>
+  <block id="819aff12752b7e6a1828e755c7664de7" category="list-text">Klicken Sie auf der Seite *Ressourcen* auf *für Support registrieren*.</block>
+  <block id="e8a3d9970b8fc1d92caaf33d9e116bd4" category="inline-image-macro">In einem Screenshot, der eine Seriennummer des Kontos und die Option „Register for Support“ anzeigt</block>
+  <block id="113f9cd7bac6f4faa6b8d58e3e099a8e" category="paragraph"><block ref="113f9cd7bac6f4faa6b8d58e3e099a8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">Vorhandener Kunde, aber kein NSS-Konto</block>
+  <block id="cc1d3c161bcf25e6445c2fc771647849" category="paragraph">Wenn Sie bereits Kunde von NetApp mit vorhandenen Lizenzen und Seriennummern sind, aber _no_ NSS Konto, müssen Sie nur ein NSS-Konto erstellen.</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp Support Site-Formular zur Benutzerregistrierung</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">Erstellen Sie einen NetApp Support Site Account, indem Sie den ausfüllen<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">Stellen Sie sicher, dass Sie die entsprechende Benutzerebene wählen, die normalerweise *NetApp Kunde/Endbenutzer* ist.</block>
+  <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">Kopieren Sie unbedingt die oben verwendete BlueXP-Kontonummer (960xxxx) für das Feld Seriennummer. Dadurch wird die Kontobearbeitung beschleunigt.</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Neu bei NetApp</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Wenn Sie neu bei NetApp sind und über keinen NSS-Account verfügen, befolgen Sie jeden Schritt unten.</block>
+  <block id="59dd2a274c2c6a3cc5b3dce08109019d" category="list-text">Suchen Sie die Seriennummer Ihres Cloud Manager-Kontos auf der Seite für die Support-Registrierung.</block>
+  <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Die Support-Registrierungs-Website von NetApp</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Navigieren Sie zu<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> Und wählen Sie *Ich bin kein registrierter NetApp Kunde*.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Füllen Sie die Pflichtfelder aus (mit roten Sternchen).</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">Wählen Sie im Feld *Product Line* die Option *Cloud Manager* aus, und wählen Sie dann den gewünschten Abrechnungsanbieter aus.</block>
+  <block id="1192dec4cc2b923397748a651cef178f" category="list-text">Kopieren Sie die Seriennummer des Cloud Manager Kontos von Schritt 2 oben, füllen Sie die Sicherheitsprüfung aus und bestätigen Sie dann, dass Sie die globale Datenschutzrichtlinie von NetApp lesen.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">Zur Fertigstellung dieser sicheren Transaktion wird sofort eine E-Mail an die angegebene Mailbox gesendet. Überprüfen Sie Ihre Spam-Ordner, wenn die Validierungs-E-Mail nicht in wenigen Minuten ankommt.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Bestätigen Sie die Aktion in der E-Mail.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">Indem Sie Ihre Anfrage an NetApp senden, wird Ihnen die Erstellung eines NetApp Support Site Kontos empfohlen.</block>
+  <block id="d6cb31c22f8f843a781cccec33157281" category="list-text">Kopieren Sie die oben angegebene Cloud Manager Account Seriennummer (960xxxx) für das Feld Seriennummer. Dadurch wird die Kontobearbeitung beschleunigt.</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp sollte sich bei diesem Prozess mit Ihnen in Verbindung setzen. Dies ist eine einmalige Onboarding-Übung für neue Benutzer.</block>
+  <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">Sobald Sie Ihren NetApp Support Site Account besitzen, können Sie im Portal BlueXP diesen NSS-Account für zukünftige Registrierungen hinzufügen.</block>
+  <block id="89d00d7a2f071a47755ab12f3b54074a" category="summary">Ransomware-Angriffe können das Unternehmen Zeit, Ressourcen und Image-Schäden kosten. Mit dem BlueXP Ransomware Protection Service können Sie relevante Informationen zur Cybersicherheit anzeigen und beurteilen, wie widerstandsfähig Ihr Unternehmen ist für einen Cyber-Angriff. Außerdem erhalten Sie eine Liste mit Alarmen und Lösungen, um Ihre Daten sicherer zu machen.</block>
+  <block id="586c9af80e3a1e788d0f764fa218a8c1" category="doc">Erfahren Sie mehr über Ransomware-Schutz</block>
+  <block id="2be1e74373d8c6565dc079c5f2766fa2" category="inline-link">Erfahren Sie mehr über Anwendungsfälle zum Schutz vor Ransomware</block>
+  <block id="effbb336e45f46d581aeda0855b4f075" category="paragraph"><block ref="1d0e1a8a3aab3560b76f73789d114aca" category="inline-link-rx"></block>.</block>
+  <block id="2f7d7abbde3d214eeb937dd5553d1875" category="admonition">Der Ransomware-Schutz-Service ist derzeit ein Beta-Angebot.</block>
+  <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">Funktionen</block>
+  <block id="328e3e773b494423220692889932183b" category="paragraph">Ransomware Protection bietet einen zentralen Kontrollpunkt für das Management und die Optimierung der Datensicherheit in verschiedenen Arbeitsumgebungen und Infrastrukturebenen, um besser auf Bedrohungen reagieren zu können, wenn sie auftreten. Es bietet derzeit mehrere Funktionen, die Ihnen bei der Sicherung von Cyberspeichern helfen können. Aktuelle Funktionen bestimmen, wann:</block>
+  <block id="bdf71233b9b0efa87a2aca5c0fad260a" category="list-text">Durch regelmäßige Snapshot-Kopien werden Volumes in Ihren Arbeitsumgebungen nicht geschützt.</block>
+  <block id="dad57e95fc9a5390302ad830888cbdb9" category="inline-link">Cloud-Backup</block>
+  <block id="eb7d0298b4be2c1f2642a071e6afc843" category="list-text">Volumes in Ihren Arbeitsumgebungen sind durch das Erstellen von Backups in der Cloud mit nicht geschützt<block ref="65043dfb781746b8fde5bfddb319eb97" category="inline-link-rx"></block>.</block>
+  <block id="c91fef6cc2bc17dd968bbc0f0f5aa90d" category="inline-link">Weitere Informationen zu SnapLock</block>
+  <block id="7da7ce0145fe20284bc2c32709dbfa0c" category="list-text">Volumes in Ihren Arbeitsumgebungen sind mittels ONTAP SnapLock Technologie vor Modifizierung und Löschung auf DEM WORM Storage geschützt.<block ref="d73d5bfcab625e5dec201c3ec8252cd8" category="inline-link-rx"></block>.</block>
+  <block id="d882bf73cd5caf1e5aa39edbf893ad74" category="inline-link">Cloud-Daten Sinnvoll</block>
+  <block id="289085348f74317351108d3d869b6f14" category="list-text">Daten in den Arbeitsumgebungen und Datenquellen werden nicht mit gescannt<block ref="4af4db8698c4a0998b2c93dbadcf8efe" category="inline-link-rx"></block> Erkennen von Compliance- und Datenschutzbedenken und ermitteln von Optimierungschancen.</block>
+  <block id="b6e4bca11d633db25249562bf37a2541" category="paragraph">Diese Funktion ist auch im Hinblick auf die Sicherung mit Ransomware wichtig, da sie Ihnen ein besseres Verständnis darüber ermöglicht, wo sich Ihre wichtigen (sensiblen, geschäftskritischen) Daten befinden, damit Sie sich ganz auf den Schutz konzentrieren können.</block>
+  <block id="ca9c3f0f3774ed774563bc8dd5808969" category="list-text">Falls eine Wiederherstellung aufgrund eines Ransomware-Angriffs erforderlich ist, werden die wichtigsten Datenkategorien nicht gesichert.</block>
+  <block id="bf4b00555794320f943c5414853d8594" category="list-text">Eine anormale Zunahme des Prozentsatzes der verschlüsselten Dateien in einer Arbeitsumgebung oder Datenquelle ist aufgetreten.</block>
+  <block id="0c33ac606d324594400b19f8dfbd2320" category="paragraph">Dies kann ein Indikator dafür sein, dass ein Ransomware-Angriff in Ihrem Netzwerk begonnen hat.</block>
+  <block id="0f336c836fe735746d73eb1a3b47ffa9" category="list-text">Sensible Daten befinden sich in Dateien in einer Arbeitsumgebung oder in einer Datenquelle, und die Zugriffsberechtigungen sind zu hoch.</block>
+  <block id="9fac98dd46ced81c05c7b657e31d52a1" category="list-text">Benutzer wurden zu den Active Directory-Domänenadministratorgruppen hinzugefügt.</block>
+  <block id="a81bf744d693d513eb729010eb9d2f15" category="list-text">Die ONTAP Softwareversion auf Ihren Clustern ist veraltet und sollte aktualisiert werden, um die besten Schutz- und Sicherheitsfunktionen sowie die neuesten Funktionen bereitzustellen.</block>
+  <block id="51b8087986092c90540ce07ff9731763" category="list-text">Das Auditing von NAS-Dateisystemen ist auf ONTAP-Systemen nicht aktiviert.</block>
+  <block id="1f7c786e95d48949eb75e0f100710129" category="paragraph">Durch das Aktivieren der CIFS-Prüfung werden Überwachungsereignisse für Ihre Systemadministratoren generiert, die Informationen wie Änderungen der Ordnerrechte, fehlgeschlagene Lese- oder Schreibversuche sowie das Erstellen, Ändern oder Löschen von Dateien nachverfolgen.</block>
+  <block id="8dde611eee96a2ced9961bcba422ef09" category="list-text">Integrierte Anti-Ransomware-Funktionen sind auf Ihren ONTAP-Systemen nicht aktiviert.</block>
+  <block id="4944c9c65fff384675d8baccb34860d8" category="paragraph">Die Anti-Ransomware-Funktionen von ONTAP erkennen proaktiv anormale Aktivitäten, die auf einen Ransomware-Angriff hindeuten könnten, und warnen vor diesen.</block>
+  <block id="94f7e8c602165c24810cf59839d13996" category="list-text">Wenn ONTAP Anti-Ransomware auf Ihren Systemen aktiviert ist, werden die verschiedenen Ransomware-Vorfälle als Warnmeldungen angezeigt.</block>
+  <block id="345624e9232e8774b95862b65525fc8e" category="list-text">Die Anzahl der hohen, mittleren und niedrigen Sicherheitslücken, die das Active IQ Digital Advisor-Tool auf Ihren ONTAP-Clustern gefunden hat.</block>
+  <block id="4977d197ea10beae7456706f56111506" category="paragraph">Sie können die Sicherheitsanfälligkeit anzeigen und anschließend die empfohlene Aktion befolgen, um das Problem zu beheben.</block>
+  <block id="b0d802aefd0aaa8c7b820eb85f1572c6" category="inline-link-macro">Sehen Sie sich an, wie Sie diese potenziellen Probleme im Dashboard zum Schutz vor Ransomware sehen können.</block>
+  <block id="5744098ef9fc961c062144a5e4a350e8" category="paragraph"><block ref="5744098ef9fc961c062144a5e4a350e8" category="inline-link-macro-rx"></block></block>
+  <block id="67c57c1ee074a0ca2ba70d8e8697fa83" category="inline-link">Zusätzlicher Schutz vor Ransomware – so geht's</block>
+  <block id="dbc1802dfcb8e1caf9bea51dc26ce672" category="paragraph">Beim Einsatz von Cloud Volumes ONTAP Systemen gibt es zusätzliche Ransomware-Schutzmaßnahmen, die sich direkt in der Arbeitsumgebung implementieren lassen.<block ref="d214645759ef5151388cf2237fb32568" category="inline-link-rx"></block>.</block>
+  <block id="53fa8df095671f897c8cbcd13ce182b1" category="section-title">Unterstützte Arbeitsumgebungen und Datenquellen</block>
+  <block id="78a675a8d2bd17b81b39c03b0bc509f6" category="paragraph"><block ref="f96df6a543d886950af2764cebf8eee0" category="inline-link-rx"></block> Ist eine Voraussetzung für die Nutzung des Ransomware Protection Service. Nachdem Data Sense installiert und aktiviert ist, können Sie Ransomware Protection verwenden, um zu sehen, wie belastbar Ihre Daten ist, um Cyber-Angriff auf die folgenden Arten von Arbeitsumgebungen und Datenquellen:</block>
+  <block id="335e4bf959c1a6bf79337e11e91e4b41" category="paragraph">* Arbeitsumgebungen:*</block>
+  <block id="434b441a61769bba5eecb3dd327a4342" category="list-text">Cloud Volumes ONTAP (implementiert in AWS, Azure oder GCP)</block>
+  <block id="6c253a8aff5dfa835a77545b3006abc8" category="list-text">On-Premises ONTAP Cluster</block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="list-text">Azure NetApp Dateien</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="list-text">Amazon FSX für ONTAP</block>
+  <block id="270fcb785810d0206945029bb05f4e97" category="list-text">Amazon S3</block>
+  <block id="69324e9ada23ef5bcac1bc763ac5938e" category="paragraph">*Datenquellen:*</block>
+  <block id="34a23f91ee1733d5151d67d6f922e573" category="list-text">File Shares von anderen Anbietern</block>
+  <block id="c58c082d5caf77a57bf200c63dfeaeb9" category="list-text">Objekt-Storage (nutzt S3-Protokoll)</block>
+  <block id="bdcce4158cfc2b8c6a2ccd87f6c5170b" category="list-text">Datenbanken (Amazon RDS, MongoDB, MySQL, Oracle, PostgreSQL, SAP HANA, SQL SERVER)</block>
+  <block id="807a3c50d901b21b3f3b8e077bc903f8" category="list-text">OneDrive Accounts</block>
+  <block id="4bb7a83842b1271682b6be62080707cb" category="list-text">SharePoint Online- und On-Premises-Accounts</block>
+  <block id="c6bcf4a88b4c531d404128df1f1ad3a8" category="list-text">Google Drive-Konten</block>
+  <block id="b01417dab46c287f85d9b2792be3d20f" category="inline-link">Konfiguriert in Cloud Data Sense</block>
+  <block id="baf7c2e288b369e60a7911ccf0d7843f" category="paragraph">Ransomware Protection überwacht auch Ihre globale Active Directory-Konfiguration, wenn Sie haben<block ref="d685621cbb53c0e90fe734b5c28a2dbe" category="inline-link-rx"></block>.</block>
+  <block id="589c1e86e266a18dc3983ba51d0a031b" category="section-title">Funktionsweise von Ransomware-Schutz</block>
+  <block id="7decc1126c0bc1b92923147bff845cde" category="paragraph">Auf hoher Ebene funktioniert Ransomware Protection wie folgt:</block>
+  <block id="d79334a7f9b8c38eafcec75ba6e6e56f" category="list-text">Ransomware Protection sammelt Informationen von Ihren Storage-Systemen, Cloud Data Sense, Cloud Backup und von anderen BlueXP und NetApp Ressourcen, um das Ransomware Protection Dashboard auszufüllen.</block>
+  <block id="4c5eb95a9e7808face08edae00ea13d5" category="list-text">Sie verwenden das Ransomware-Schutz-Dashboard, um einen Überblick zu bekommen, wie gut Ihre Systeme geschützt sind.</block>
+  <block id="ddb1029c89fa39456180abaf191e6b60" category="list-text">Mithilfe der bereitgestellten Berichterstellungs-Tools können Sie den Schutz von Cyberspeichern unterstützen.</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">Kosten</block>
+  <block id="bff8adc090b2fdcbd02cf502f752a260" category="paragraph">Es gibt keine separaten Kosten für den Ransomware-Schutz-Service während der Beta.</block>
+  <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp bietet Unterstützung für BlueXP auf verschiedene Weise. Umfassende kostenlose Self-Support-Optionen stehen rund um die Uhr zur Verfügung, wie etwa Knowledge Base-Artikel (KB) und ein Community-Forum. Ihre Support-Registrierung umfasst technischen Remote-Support über Web-Ticketing.</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">Holen Sie sich Hilfe</block>
+  <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp bietet Unterstützung für BlueXP und seine Cloud-Services auf unterschiedliche Weise. Umfassende kostenlose Self-Support-Optionen stehen rund um die Uhr zur Verfügung, wie etwa Knowledge Base-Artikel (KB) und ein Community-Forum. Ihre Support-Registrierung umfasst technischen Remote-Support über Web-Ticketing.</block>
+  <block id="07d41912a6ab6b97216f8cf89e93205c" category="section-title">Self-Support</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">Diese Optionen sind kostenlos verfügbar, 24 Stunden am Tag, 7 Tage die Woche:</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">Wissensdatenbank</block>
+  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
+  <block id="9a3db1abe5491d0eb9bb5d125981356c" category="paragraph">Suchen Sie in der BlueXP Knowledge Base nach hilfreichen Artikeln zur Fehlerbehebung.</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">Communitys</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">Treten Sie der BlueXP Community bei, um laufende Diskussionen zu verfolgen oder neue zu erstellen.</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">Dokumentation</block>
+  <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">Die BlueXP-Dokumentation, die Sie gerade anzeigen.</block>
+  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">Mailto:ng-cloudmanager-feedback@netapp.com[Feedback email]</block>
+  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">Wir wissen Ihre Vorschläge zu schätzen. Senden Sie uns Ihr Feedback, um BlueXP zu verbessern.</block>
+  <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp Support</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">Zusätzlich zu den oben genannten Self-Support-Optionen können Sie gemeinsam mit einem NetApp Support-Experten eventuelle Probleme nach der Aktivierung des Supports beheben.</block>
+  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">Erfahren Sie, wie Sie sich für Support registrieren</block>
+  <block id="1012a287397c66025d7748edf06a36e2" category="paragraph">Um die * Case erstellen*-Fähigkeit zu verwenden, müssen Sie zuerst eine einmalige Registrierung Ihrer BlueXP Account ID-Seriennummer (dh 960xxxx) mit NetApp <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>.</block>
+  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">Klicken Sie in BlueXP auf *Hilfe &gt; Support*.</block>
+  <block id="f5052c65917d7341726235d4d4941461" category="list-text">Wählen Sie eine der verfügbaren Optionen unter Technical Support:</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">Klicken Sie auf *Rufen Sie uns an*, wenn Sie mit jemandem am Telefon sprechen möchten. Sie werden zu einer Seite auf netapp.com weitergeleitet, auf der die Telefonnummern aufgeführt sind, die Sie anrufen können.</block>
+  <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">Klicken Sie auf *Case erstellen*, um ein Ticket mit einem NetApp Support-Experten zu öffnen:</block>
+  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">*NetApp Support Site Account*: Wählen Sie das entsprechende NSS-Konto für die Person aus, die den Support-Case eröffnet. Diese Person ist der primäre Ansprechpartner bei NetApp, der Sie sich zusätzlich zu den unten aufgeführten zusätzlichen E-Mails mit anderen Kunden in Verbindung setzen kann.</block>
+  <block id="d950fb930d7f7e6bfdda1b91b4639a02" category="paragraph">Wenn Ihr NSS-Konto nicht angezeigt wird, können Sie im Support-Bereich von BlueXP zur Registerkarte *NSS Management* navigieren, um es dort hinzuzufügen.</block>
+  <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Service*: Wählen Sie den Dienst aus, mit dem das Problem verknüpft ist. Beispiel: BlueXP, wenn es sich um ein Problem des technischen Supports mit Workflows oder Funktionen im Service handelt.</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*Arbeitsumgebung*: Wählen Sie *Cloud Volumes ONTAP* oder *On-Prem* und anschließend die zugehörige Arbeitsumgebung aus.</block>
+  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">Die Liste der Arbeitsumgebungen liegt im Bereich des BlueXP-Kontos, des Arbeitsbereichs und des Connectors, den Sie im oberen Banner des Dienstes ausgewählt haben.</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*Case Priority*: Wählen Sie die Priorität für den Fall, der niedrig, Mittel, hoch oder kritisch sein kann.</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">Wenn Sie weitere Informationen zu diesen Prioritäten wünschen, bewegen Sie den Mauszeiger über das Informationssymbol neben dem Feldnamen.</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*Problembeschreibung*: Geben Sie eine detaillierte Beschreibung Ihres Problems an, einschließlich aller anwendbaren Fehlermeldungen oder Fehlerbehebungsschritte, die Sie durchgeführt haben.</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*Zusätzliche E-Mail-Adressen*: Geben Sie zusätzliche E-Mail-Adressen ein, wenn Sie jemand anderes auf dieses Problem aufmerksam machen möchten.</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">Screenshot aus dem Formular „Create a Case“, in dem Sie einen Case beim NetApp Support erstellen können</block>
+  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">Es wird ein Popup-Fenster mit der Support-Fallnummer angezeigt. Ein NetApp Support-Experte prüft Ihren Fall und macht Sie umgehend mit.</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">Für eine Historie Ihrer Supportfälle können Sie auf *Einstellungen &gt; Timeline* klicken und nach Aktionen mit dem Namen „Support Case erstellen“ suchen. Mit einer Schaltfläche ganz rechts können Sie die Aktion erweitern, um Details anzuzeigen.</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">Es ist möglich, dass beim Versuch, einen Fall zu erstellen, möglicherweise die folgende Fehlermeldung angezeigt wird:</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">„Sie sind nicht berechtigt, einen Fall für den ausgewählten Service zu erstellen.“</block>
+  <block id="fa6b601b2fb4e3e5c7b466ecb8bd70ac" category="paragraph">Dieser Fehler könnte bedeuten, dass das NSS-Konto und das Unternehmen des Datensatzes, mit dem es verbunden ist, nicht das gleiche Unternehmen des Eintrags für die BlueXP Account Seriennummer (dh 960xxxx) oder Seriennummer der Arbeitsumgebung. Sie können Ihre Liste der NSS-Konten oben im *Case erstellen*-Formular überprüfen, um die richtige Übereinstimmung zu finden, oder Sie können Hilfe mit einer der folgenden Optionen suchen:</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">Verwenden Sie den Chat im Produkt</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="inline-link"></block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">Übermitteln eines nicht-technischen Cases unter<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="16c035c26ff47833de74da5ae61ee8db" category="summary">Verwenden Sie das Ransomware Protection Dashboard, um einen Überblick über die Cyber-Ausfallsicherheit aller Ihrer BlueXP-Arbeitsumgebungen und Datenquellen zu erhalten. Sie können in jedem Bereich nach unten gehen, um weitere Details und mögliche Korrekturmaßnahmen zu finden.</block>
+  <block id="7c539c494001ab119f307e07a91b6386" category="doc">Verwalten von Cyber-Sicherheitsempfehlungen für Ihre Datenquellen</block>
+  <block id="6b9e8701bdfe320eb36c2996a330f476" category="paragraph">Verwenden Sie das Ransomware Protection Dashboard, um einen Überblick über die Cyber-Ausfallsicherheit aller Ihrer BlueXP (früher Cloud Manager) Arbeitsumgebungen und Datenquellen zu erhalten. Sie können in jedem Bereich nach unten gehen, um weitere Details und mögliche Korrekturmaßnahmen zu finden.</block>
+  <block id="d45e44cf49eb34753ebd7a0956f7ac16" category="paragraph">Wählen Sie im Menü BlueXP links die Option *Schutz &gt; Ransomware-Schutz*.</block>
+  <block id="48462d40111a9bc9ae905b8b4f06f513" category="inline-image-macro">Ein Screenshot des Ransomware Protection Dashboards.</block>
+  <block id="8ec47565c339dc809f9ae521e593dca5" category="paragraph"><block ref="8ec47565c339dc809f9ae521e593dca5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8e0f84364d9fe671a1c0230eed8bfcbe" category="section-title">Ransomware-Schutzpunktzahl und empfohlene Maßnahmen</block>
+  <block id="11ae93b162d47b4ce39552841ea3e703" category="paragraph">Das Bedienfeld „Ransomware Protection Score“ bietet eine einfache Möglichkeit, zu erkennen, wie stabil Ihre Daten bei einem Ransomware-Angriff ist. Dieses Panel funktioniert in Verbindung mit dem Fenster Empfohlene Maßnahmen. Es gibt zwei Teile der Ransomware Protection Score Panel:</block>
+  <block id="b8bfbc1d1e44f9eeff0ccfdebda4b63b" category="list-text">Der Gesamtbewertung für Ihre Daten (0 – 100 % geschützt)</block>
+  <block id="a16aee88829b47a361ba9bbbbc934a75" category="paragraph">Die Bewertung basiert auf einer gewichteten Berechnung aller möglichen Empfehlungen.</block>
+  <block id="fa7008b023494ac1c569504beecfad64" category="list-text">Wie viele empfohlene Maßnahmen sind verfügbar, um Ihren Schutz auf 100 % zu steigern, wenn Sie die Empfehlungen implementieren.</block>
+  <block id="533bce3246d037e8420031d7f7887bdf" category="inline-link">NIST-Framework für Cyber-Sicherheit</block>
+  <block id="139c30b065cc71bd01be3875a6804604" category="paragraph">Die drei Arten der empfohlenen Maßnahmen entsprechen dem<block ref="991ce1a9b761ae9d095337b2ba7fca6c" category="inline-link-rx"></block>:</block>
+  <block id="97740c0c87b83b324e18993ba93f0617" category="list-text">Sichern</block>
+  <block id="233e33f8fdca7b4cc98503e42feac9cf" category="list-text">Erkennen</block>
+  <block id="556b050ce914d18480d6ea30308c7790" category="list-text">Recovery</block>
+  <block id="f578142a936c7c909b367d49e737c454" category="inline-image-macro">Ein Screenshot mit dem Fenster „Ransomware Protection Score“ und dem Fenster „Recommended Actions“.</block>
+  <block id="b833f6d330cc0bb97e4fed79128942b7" category="paragraph"><block ref="b833f6d330cc0bb97e4fed79128942b7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1378ccd2404ba8aead33585545d583c1" category="paragraph">Auf dieser Beispielseite gibt es nur einen einzigen Empfehlungstyp für die Kategorie „Schutz“. Und diese Empfehlung gilt für 258 Dateien.</block>
+  <block id="f8489c175b8947da7b3db6ba614e807c" category="paragraph">Dieses Fenster unterstützt Datenquellen, die Cloud Data Sense hinzugefügt wurden.</block>
+  <block id="4432bc47ae4bb8e25092e45a1f42f847" category="paragraph">Beachten Sie, dass die Empfehlungen pro Datenquelle gelten. Wenn also dieselbe Empfehlung für 3 Datenquellen relevant ist, wird sie als 3 Empfehlungen gezählt.</block>
+  <block id="b31c12835c926243e7f0d4c0e9419a63" category="paragraph">Sie können auf klicken <block ref="6be018d461f0945956e868c034bab91d" category="inline-image-macro-rx" type="image"></block> So erweitern Sie jede empfohlene Aktion wie unten gezeigt.</block>
+  <block id="a9e52a6c6443e176596ad03f788c58e2" category="inline-image-macro">Ein Screenshot, in dem das Fenster Empfohlene Maßnahmen angezeigt wird, wurde erweitert, um die Gesamtaktionen pro Datenquelle anzuzeigen.</block>
+  <block id="dd34c6cc8bbde7e5f0b662a3ff425fd3" category="paragraph"><block ref="dd34c6cc8bbde7e5f0b662a3ff425fd3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="792d56f2dba12973a8a62d4433fabf09" category="paragraph">Um die detaillierte Liste der Daten zu sehen, die mit einer empfohlenen Aktion identifiziert wurden, klicken Sie auf die Schaltfläche *untersuchen* und Sie werden auf die Cloud Data Sense Untersuchungsseite mit der Liste aller Dateien weitergeleitet, die die Kriterien für die empfohlene Aktion erfüllen.</block>
+  <block id="577e4e7be985471f75ff9f32a823bd68" category="paragraph">Dann können Sie entscheiden, ob Sie die empfohlene Aktion auf alle diese Dateien anwenden möchten, oder nur auf einigen von ihnen.</block>
+  <block id="dc3ac6ce129c27b20d00c137122aa856" category="paragraph">Nachdem Sie die empfohlene Aktion behoben haben, wird die nächste Aktualisierung der Ransomware Protection Score Panel (alle 5 Minuten) die Zahl für die Punktzahl anpassen.</block>
+  <block id="aacc9e24b30418421773eaaf9a04dbe6" category="section-title">Liste empfohlener Maßnahmen</block>
+  <block id="9a139ea0efa1c20c6bd2e67ac0eaa8c7" category="inline-link">Quelldateien in eine NFS-Freigabe verschieben</block>
+  <block id="2318b946e3af9d98c8e9b977911705a5" category="paragraph">Derzeit wird nur im Hinblick auf eine empfohlene Maßnahme geprüft, ob sensible Daten in ungeschützten Datenquellen gespeichert sind – an Orten, an denen Ransomware-Datensicherungssoftware nicht schützen kann. Mit Data Sense können Sie diese Dateien schnell in eine besser geschützte Datenquelle verschieben. Sie werden die Funktion „Data Sense“ nutzen<block ref="5bfe0ed9279b2c330ff3f7e28ffd6b21" category="inline-link-rx"></block>.</block>
+  <block id="4e7d7c7c644ddf3ef68ede95b752a2db" category="paragraph">In der Regel verfügen IT-Abteilungen über Richtlinien, die sensible Daten von bestimmten Unternehmensstandorten einschränken. Diese empfohlene Aktion ermöglicht es Ihnen, die Dateien mit sensiblen Daten zu identifizieren und sie in eine sicherere Datenquelle zu verschieben, wo sensible *GESPEICHERT werden kann*.</block>
+  <block id="0548cb97d94f19991153f1d73928b898" category="section-title">Cyber Resilience Map</block>
+  <block id="25386dd31b2de7fb09ac2a3667151f9f" category="paragraph">Die Cyber Resilience Map ist der Hauptbereich im Dashboard. Es ermöglicht Ihnen, alle Ihre Arbeitsumgebungen und Datenquellen visuell zu sehen und relevante Informationen zur Cyber-Ausfallsicherheit anzuzeigen.</block>
+  <block id="f06b2c35780521a6ca6570d30ebdafe1" category="inline-image-macro">Ein Screenshot der Cyber Resilience Map auf dem Ransomware Protection Dashboard.</block>
+  <block id="4a9cc24f41215c93a51d413515711bb2" category="paragraph"><block ref="4a9cc24f41215c93a51d413515711bb2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5426730a36cdf51fea1c0eff90392a8d" category="paragraph">Die Karte besteht aus drei Teilen:</block>
+  <block id="9128ea07aab4d047ea7db63895f59084" category="list-text">Linker Bereich</block>
+  <block id="cfe88906c159ba2224259aff51093f2b" category="list-text">Zeigt eine Liste der Warnungen an, für die der Service alle Datenquellen überwacht. Es gibt außerdem die Anzahl jeder bestimmten Warnung an, die in Ihrer Umgebung aktiv ist. Eine große Anzahl von Warnungen kann ein guter Grund sein, um zu versuchen, diese Warnmeldungen zuerst zu lösen.</block>
+  <block id="c2e0a4d3f0930bc0f0b564b584030916" category="list-text">Mittelplatte</block>
+  <block id="d1f02ad72bb94fea17c368f0df9691c3" category="list-text">Zeigt alle Datenquellen, Dienste und Active Directory in einem grafischen Format an. Gesunde Umgebungen weisen einen grünen Indikator auf, und Umgebungen mit einem Warnmeldungsanzeiger haben einen roten Indikator.</block>
+  <block id="d8e6245ab3afebc14b303772f1a70a65" category="list-text">Rechte Abdeckung</block>
+  <block id="965482269fd6830f57f8a78804eff608" category="list-text">Nachdem Sie auf eine Datenquelle geklickt haben, die eine rote Anzeige aufweist, zeigt dieses Fenster die Warnungen für diese Datenquelle an und gibt Empfehlungen zur Behebung der Warnmeldung aus. Die Alarme werden so sortiert, dass die letzten Warnmeldungen zuerst aufgeführt werden. Viele Empfehlungen führen Sie zu einem anderen BlueXP-Service, wo Sie das Problem lösen können.</block>
+  <block id="74aded2ba2d54cc0a1010549762c6894" category="paragraph">Es handelt sich dabei um die derzeit nachverfolgten Warnungen und vorgeschlagenen Korrekturmaßnahmen.</block>
+  <block id="b92071d61c88498171928745ca53078b" category="cell">Alarm</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">Beschreibung</block>
+  <block id="282baca6aef56652f503adce6afa9f07" category="cell">Korrekturmaßnahmen</block>
+  <block id="b643ef329f114f3897ccc4e29b66a128" category="cell">Hohe Datenverschlüsselungsraten gefunden</block>
+  <block id="cebd2a5b90846add1fd8575a57762d78" category="cell">Eine anormale Zunahme des Prozentsatzes der verschlüsselten Dateien oder beschädigten Dateien in der Datenquelle ist aufgetreten. Das bedeutet, dass der Prozentsatz der verschlüsselten Dateien in den letzten 7 Tagen um mehr als 20 % erhöht wurde. Wenn zum Beispiel 50 % der Dateien verschlüsselt sind, dann erhöht sich diese Zahl einen Tag später auf 60 %, Sie würden diese Warnung sehen.</block>
+  <block id="ceace020d4a5efbc4534a7b46912c0a3" category="inline-link">Untersuchungsseite „Data Sense“</block>
+  <block id="b70b68c6c1a2a307b85421389d734e73" category="cell">Klicken Sie auf den Link, um das zu starten<block ref="ca43d072e47ddc00ce99be8f2a671147" category="inline-link-rx"></block>. Dort können Sie die Filter für die spezifische _Arbeitsumgebung_ und _Kategorie (verschlüsselt und beschädigt)_ auswählen, um die Liste aller verschlüsselten und beschädigten Dateien anzuzeigen.</block>
+  <block id="5d2ff422e39fd3e94e381ee143e990e1" category="cell">Sensible Daten mit breiten Berechtigungen gefunden</block>
+  <block id="48f8c5115f15ad05b232939d1e419e4e" category="cell">Sensible Daten werden in Dateien gefunden und die Zugriffsberechtigungen sind in einer Datenquelle zu hoch.</block>
+  <block id="e60347e36bded78dd3b8f5cb8e2360cd" category="cell">Klicken Sie auf den Link, um das zu starten<block ref="ca43d072e47ddc00ce99be8f2a671147" category="inline-link-rx"></block>. Dort können Sie die Filter für die spezifische _Arbeitsumgebung_, _Sensitivity Level (Sensitive Personal)_ und _Open Permissions_ auswählen, um die Liste der Dateien anzuzeigen, die dieses Problem haben.</block>
+  <block id="aa017cbc7f194ac056d1dac3e2ab35e0" category="cell">Ein oder mehrere Volumes werden mit Cloud Backup nicht gesichert</block>
+  <block id="43203eb5faa833147891add9332b9b74" category="cell">Einige Volumes in der Arbeitsumgebung werden nicht mit geschützt<block ref="65043dfb781746b8fde5bfddb319eb97" category="inline-link-rx"></block>.</block>
+  <block id="4bdb3658cc1fd57035198c9a183aee9c" category="cell">Klicken Sie auf den Link, um Cloud Backup zu starten. Dann können Sie die Volumes identifizieren, die nicht in der Arbeitsumgebung gesichert werden, und entscheiden, ob Sie Backups auf diesen Volumes aktivieren möchten.</block>
+  <block id="a061a02af5ff84253f42633a47840e61" category="cell">Ein oder mehrere Repositorys (Volumes, Buckets usw.) in Ihren Datenquellen werden nicht nach Data Sense gescannt</block>
+  <block id="4c28f84b2cbc9460af1770270316b629" category="cell">Einige Daten in Ihren Datenquellen werden nicht mit gescannt<block ref="4af4db8698c4a0998b2c93dbadcf8efe" category="inline-link-rx"></block> Um Compliance- und Datenschutzbedenken zu identifizieren und Optimierungsmöglichkeiten zu finden.</block>
+  <block id="72b16307fd83023f89f6fdbe2d82b1f9" category="cell">Klicken Sie auf den Link, um den Datensense zu starten und das Scannen und die Zuordnung für die nicht gescannten Elemente zu aktivieren.</block>
+  <block id="5592b65ac68ee08e7e4d72e1db4c8c57" category="cell">On-box Anti-Ransomware ist nicht für alle Volumes aktiv</block>
+  <block id="3e4cd8785a12dd4af37c0d4961022f96" category="inline-link">NetApp Funktion zur Bekämpfung von Ransomware</block>
+  <block id="7aa34ccd4933956082a1db1a1dcb9386" category="cell">Einige Volumes im lokalen ONTAP-System haben die nicht<block ref="c430ca7dfd9bb0dbfe1053348a62639f" category="inline-link-rx"></block> Aktiviert.</block>
+  <block id="f8aa88150742f7039dc7a7ef56fe7ecc" category="inline-xref">Härten Sie Ihre ONTAP Umgebung Panel</block>
+  <block id="fda1498fd18521d8c00ada8cf68c0f89" category="cell">Klicken Sie auf den Link, und Sie werden zu weitergeleitet <block ref="e60df9b32c12ff1b69061e150f46f08e" category="inline-xref-macro-rx"></block> Und in die Arbeitsumgebung mit dem Problem. Dort können Sie herausfinden, wie das Problem am besten behoben werden kann.</block>
+  <block id="c13d5346bb8b2abfdcb9c4d94c922f1a" category="cell">Die ONTAP-Version wurde nicht aktualisiert</block>
+  <block id="9c7ce6244ca9eb3215d61dd69afa3325" category="inline-link">NetApp Leitfaden zur verstärkte Sicherheit von ONTAP-Systemen</block>
+  <block id="d001b5ead06b9ede8cbbf86a37adc3ec" category="cell">Die auf Ihren Clustern installierte Version der ONTAP Software entspricht nicht den Empfehlungen von<block ref="060f8a2b53a60ac49c67caafaf5b129f" category="inline-link-rx"></block>.</block>
+  <block id="0a7f54737c4406db7936c0b0bffb40ef" category="cell">Snapshots sind nicht für alle Volumes konfiguriert</block>
+  <block id="0bc3a3903adf836de2c855cd40611eab" category="cell">Einige Volumes in der Arbeitsumgebung sind nicht durch die Erstellung von Volume Snapshots geschützt.</block>
+  <block id="c4839802587ac50cbe60ffdc49b98465" category="cell">Das Auditing von Dateivorgängen ist nicht für alle SVMs aktiviert</block>
+  <block id="112dc676159587048198f85964d6516d" category="cell">Einige Storage-VMs in der Arbeitsumgebung sind nicht für das Filesystem-Auditing aktiviert. Es wird empfohlen, damit Sie die Benutzeraktionen auf Ihren Dateien verfolgen können.</block>
+  <block id="2a616a7e873712e5b6e2b2ace9afd42d" category="cell">Klicken Sie auf den Link, und Sie werden zu weitergeleitet <block ref="e60df9b32c12ff1b69061e150f46f08e" category="inline-xref-macro-rx"></block> Und in die Arbeitsumgebung mit dem Problem. Dort können Sie herausfinden, ob Sie NAS-Prüfungen auf Ihren SVMs aktivieren müssen.</block>
+  <block id="64ea11c681029425167cb44bfc5cba6b" category="section-title">Wichtige Daten-Repositorys durch Sensibilität</block>
+  <block id="dbf745aed831082f2f3dce55616bd43f" category="paragraph">Das Fenster _Top Data Repositories by Sensitivity Level_ enthält bis zu den vier wichtigsten Daten-Repositorys (Arbeitsumgebungen und Datenquellen), die die sensibelsten Elemente enthalten. Das Balkendiagramm für jede Arbeitsumgebung ist in folgende Kategorien unterteilt:</block>
+  <block id="c2587967478c7df25fe839d6f619f443" category="list-text">Nicht-sensible Daten</block>
+  <block id="6370c5a9859b827de2be9d30ec4b997e" category="list-text">Persönliche Daten</block>
+  <block id="0f0be2946f647a34d438bb34323fd30e" category="list-text">Sensible personenbezogene Daten</block>
+  <block id="3da3b2ad8a523d3fbcf37fa5ded865ed" category="inline-image-macro">Ein Screenshot der Datenschutzübersicht auf dem Dashboard von Ransomware Protection.</block>
+  <block id="afe55f55bac5acec2b344883d79605d6" category="paragraph"><block ref="afe55f55bac5acec2b344883d79605d6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="43ec9a8f95b41a9a8648d4df5db2c7f1" category="paragraph">Sie können mit der Maus auf jeden Abschnitt zeigen, um die Gesamtanzahl der Elemente in jeder Kategorie anzuzeigen.</block>
+  <block id="b2f0cf77e342c8e06d6adc89839b5275" category="paragraph">Klicken Sie auf die einzelnen Bereiche, um die gefilterten Ergebnisse auf der Seite „Data Sense Investigation“ anzuzeigen, damit Sie weitere Informationen finden können.</block>
+  <block id="d12e8ee197943c930366883b4e6f7e46" category="section-title">Domänenadministrator-Gruppenkontrolle</block>
+  <block id="1484c0ae97e3321c4dc842fb559cbdb5" category="inline-link">Integration eines globalen Active Directory</block>
+  <block id="206f9d17695d7880b66a22ae30ca1d40" category="paragraph">Das Fenster _Domain Administrator Group Control_ zeigt die letzten Benutzer an, die zu Ihren Domänenadministratorgruppen hinzugefügt wurden, damit Sie sehen können, ob alle Benutzer in diesen Gruppen zugelassen werden sollen. Dieser muss unbedingt vorhanden sein<block ref="8f7d0451e4c868ad6ef341be6b4cd177" category="inline-link-rx"></block> In Cloud Data Sense für dieses Panel aktiv sein.</block>
+  <block id="32cb01a3a6310bb048c5fccec5ef559a" category="inline-image-macro">Ein Screenshot der Benutzer, die als Domänenadministratoren auf dem Ransomware Protection Dashboard hinzugefügt wurden.</block>
+  <block id="47887aad5d32097f5b8e3d8a5be5afb3" category="paragraph"><block ref="47887aad5d32097f5b8e3d8a5be5afb3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="46419f697b5cb46833f440abb15226ec" category="paragraph">Zu den Standard-Administratorgruppen gehören „Administratoren“, „Domänen-Administratoren“, „Enterprise Admins“, „Enterprise Key Admins“ und „Key Admins“.</block>
+  <block id="0a3ec7ebb525a806c10987f8845415f7" category="section-title">Daten, die nach Typen offener Berechtigungen aufgelistet sind</block>
+  <block id="156c71c78489201b423c6baa1fa56e47" category="paragraph">Im Fenster „_Öffnen“ wird der Prozentsatz für jeden Berechtigungstyp angezeigt, der für alle Dateien vorhanden ist, die gescannt werden. Das Diagramm wird aus Data Sense bereitgestellt und zeigt die folgenden Berechtigungstypen an:</block>
+  <block id="5eef11b580781f577a31fd66fb5e92bc" category="list-text">Kein Offener Zugriff</block>
+  <block id="a1803d6c124292f91b3806ee4c46b406" category="list-text">Steht Unternehmen offen</block>
+  <block id="8c8bc01ad66acc46ad4db72461de09d9" category="list-text">Öffentlich zugänglich</block>
+  <block id="77660481bdb77bcf47202315fe7e0d51" category="list-text">Unbekannter Zugriff</block>
+  <block id="36f2783f728df5dac69b5d8b6a6e5e6d" category="inline-image-macro">Ein Screenshot der verschlüsselten Datei Diagramm auf dem Ransomware Protection Dashboard.</block>
+  <block id="ad55b6fccc2aeddcbf7ab2007459bcb1" category="paragraph"><block ref="ad55b6fccc2aeddcbf7ab2007459bcb1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5971cfc235ee56ca96a8b0839861c16d" category="paragraph">Sie können mit der Maus auf jeden Abschnitt zeigen, um den Prozentsatz und die Gesamtzahl der Dateien in jeder Kategorie anzuzeigen.</block>
+  <block id="3df50df725ccc280a453b2a4c657ef23" category="section-title">Daten, die in verschlüsselten Dateien aufgeführt sind</block>
+  <block id="103f4c38cb312b04a9ff1c216d60872d" category="paragraph">Das Fenster _verschlüsselte Dateien_ zeigt die 4 wichtigsten Datenquellen mit dem höchsten Prozentsatz an Dateien an, die im Laufe der Zeit verschlüsselt sind. Dies sind in der Regel Elemente, die kennwortgeschützt waren. Dazu werden die Verschlüsselungsraten der letzten 7 Tage verglichen, um zu sehen, welche Datenquellen eine Zunahme von über 20 % haben. Eine Zunahme dieser Menge könnte bedeuten, dass Ransomware bereits Ihr System angegriffen wird.</block>
+  <block id="e1def2109874ef9469c6637b40a3ec72" category="paragraph"><block ref="e1def2109874ef9469c6637b40a3ec72" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c4c9189dc37433980c8f4fd90332e76e" category="paragraph">Klicken Sie auf eine Zeile für eine der Datenquellen, um die gefilterten Ergebnisse auf der Seite „Data Sense Investigation“ anzuzeigen, damit Sie weitere Untersuchungen durchführen können.</block>
+  <block id="ba82eec4834347b5a1b3d627cccfd0a2" category="section-title">Status der Erhöhung des Status der ONTAP Systemhärtung</block>
+  <block id="3380ed6ae32f99410860532de07b57a7" category="inline-link">ONTAP Anti-Ransomware-Funktion</block>
+  <block id="522328976b36de5b8d745ce46d07e938" category="paragraph">Das Fenster _Harden Your ONTAP Environment_ enthält den Status bestimmter Einstellungen in Ihren ONTAP-Systemen, die verfolgen, wie sicher Ihre Bereitstellung gemäß dem ist<block ref="060f8a2b53a60ac49c67caafaf5b129f" category="inline-link-rx"></block> Und zum<block ref="0be7bd5b5f280e211653a4c6e05c11a6" category="inline-link-rx"></block> Die ungewöhnliche Aktivitäten proaktiv erkennen und warnen.</block>
+  <block id="d7e8b0e94bc7dcc93f421c7fc79dfffa" category="paragraph">Sie können die Empfehlungen prüfen und anschließend entscheiden, wie Sie potenzielle Probleme beheben möchten. Sie können die Schritte befolgen, um die Einstellungen auf Ihren Clustern zu ändern, die Änderungen auf ein anderes Mal zu verschieben oder den Vorschlag zu ignorieren.</block>
+  <block id="bd44e2921ae1a42eb3a5dc08696e7b0e" category="paragraph">Dieses Panel unterstützt derzeit On-Prem ONTAP, Cloud Volumes ONTAP und Amazon FSX für NetApp ONTAP Systeme.</block>
+  <block id="cf883a9477c6275016bd317d9ac38844" category="inline-image-macro">Ein Screenshot des Status zur ONTAP-Verhärtung auf dem Ransomware-Schutz-Dashboard.</block>
+  <block id="da0f95ed9d75ac4d5d3b7644ac2fd0b7" category="paragraph"><block ref="da0f95ed9d75ac4d5d3b7644ac2fd0b7" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bc6d33a925140a3460ad6681dc5242bc" category="paragraph">Folgende Einstellungen werden verfolgt:</block>
+  <block id="e9f0aaae56580f9096af03ba526b177c" category="cell">Härtungsziel</block>
+  <block id="1cbf843c3a5a0832d8cf0cdcf1135a78" category="cell">ONTAP Anti-Ransomware</block>
+  <block id="668049b833f74a4da25e90299e223ec3" category="cell">Der Prozentsatz der Volumes, für die integrierte Ransomware aktiviert ist. Nur für ONTAP-Systeme vor Ort gültig. Ein grünes Statussymbol zeigt an, dass &gt; 85 % der Volumes aktiviert sind. Gelb gibt an, dass 40-85% aktiviert sind. Rot zeigt an, dass &lt; 40 % aktiviert sind.</block>
+  <block id="5548081e3623b5964eda1074b3e71b59" category="inline-link">Anti-Ransomware auf Ihren Volumes aktivieren</block>
+  <block id="ad488d126384370795bd3187eef1e396" category="cell"><block ref="1a378d16128702117eeef84a905af055" category="inline-link-rx"></block> Verwenden von System Manager.</block>
+  <block id="e4a37f02d326b41feca29ff24384dfc1" category="cell">NAS-Auditing</block>
+  <block id="26644e590b6e93e56b7eb402dd7184d7" category="cell">Die Anzahl der Storage VMs, für die Dateisystemprüfungen aktiviert sind. Ein grünes Statussymbol zeigt an, dass bei &gt; 85 % der SVMs die Prüfung des NAS-Filesystems aktiviert ist. Gelb gibt an, dass 40-85% aktiviert sind. Rot zeigt an, dass &lt; 40 % aktiviert sind.</block>
+  <block id="c6310b0082711c2ecff8665c858d4349" category="inline-link">Erfahren Sie, wie NAS-Audits auf SVMs möglich werden</block>
+  <block id="4f1efe1bb089b60d7f12a798fbc657ac" category="cell"><block ref="5008c18083c6348e863173af351120f7" category="inline-link-rx"></block> Verwenden der CLI.</block>
+  <block id="e8467e9b509c4924668c01eb7ab2adde" category="cell">ONTAP-Version</block>
+  <block id="31d81eb6324899c415d867559799335f" category="cell">Die auf den Clustern installierte Version der ONTAP Software. Ein grünes Statussymbol zeigt an, dass die Version aktuell ist. Ein gelbes Symbol zeigt an, dass der Cluster hinter 1 oder 2 Patch-Versionen oder 1 Minor-Version für On-Prem-Systeme oder hinter 1 Hauptversion für Cloud Volumes ONTAP steht. Ein rotes Symbol zeigt an, dass der Cluster hinter 3 Patch-Versionen steht, 2 Minor-Versionen, 1 Hauptversion für On-Prem-Systeme oder hinter 2 Hauptversionen für Cloud Volumes ONTAP.</block>
+  <block id="0798f817dc1443dc9f38ec02333f79aa" category="inline-link">Für ein Upgrade von On-Premises-Clustern empfiehlt sich die beste Lösung</block>
+  <block id="bd049a4521e272ef2c19305d5ce4e5e1" category="inline-link">Ihre Cloud Volumes ONTAP Systeme</block>
+  <block id="c520be19d736e28ac258be212caaa6a5" category="cell"><block ref="ebf13e67cf6307ed02967adbb6711cdb" category="inline-link-rx"></block> Oder<block ref="57f03f2d814ee68f8cab383ca5276240" category="inline-link-rx"></block>.</block>
+  <block id="9147e5e61a7b9260dec09f3a6eb3e5be" category="cell">Snapshots</block>
+  <block id="fa1cc5ad543a3d3532ed24192f00dab0" category="cell">Ist die Snapshot-Funktion für Daten-Volumes aktiviert und welcher Prozentsatz der Volumes Snapshot Kopien aufweisen. Ein grünes Statussymbol zeigt an, dass &gt; 85 % der Volumes Snapshots aktiviert sind. Gelb gibt an, dass 40-85% aktiviert sind. Rot zeigt an, dass &lt; 40 % aktiviert sind.</block>
+  <block id="fcb0bd0c7d52a8e69bc675e26e703a23" category="inline-link">Aktivieren Sie Volume-Snapshots in Ihren On-Premises-Clustern</block>
+  <block id="fed5603b3da12b224d2c5a4744d84db6" category="inline-link">Auf Ihren Cloud Volumes ONTAP Systemen</block>
+  <block id="b9de0627ae5b338bc6c5d66e26fd1ebc" category="inline-link">Auf Ihren FSX für ONTAP Systemen</block>
+  <block id="3b87b8dcbc175954773151e5cdbe57d2" category="cell"><block ref="9217c403e6fe97a9a176c63ac6ba2b68" category="inline-link-rx"></block>, Oder<block ref="a83b33f58a6c49ebc8dc0bebb61ff0e7" category="inline-link-rx"></block>, Oder<block ref="655b9f4a8bcbab74e9e21d268c925508" category="inline-link-rx"></block>.</block>
+  <block id="4d18540b8dc5a99209517762449c6ad1" category="section-title">Status von Berechtigungen für Ihre kritischen Geschäftsdaten</block>
+  <block id="7c10a5ddc22c56c55c4495f5de3c4b58" category="paragraph">Das Fenster _Analyse der Berechtigungen für geschäftskritische Daten_ zeigt den Berechtigungsstatus von Daten an, die für Ihr Unternehmen von entscheidender Bedeutung sind. Damit können Sie schnell einschätzen, wie gut Sie Ihre geschäftskritischen Daten schützen.</block>
+  <block id="3c55b43a850b4a36aa1cc1d65a454b37" category="inline-image-macro">Ein Screenshot des Berechtigungsstatus für die Daten, die Sie auf dem Ransomware Protection Dashboard verwalten.</block>
+  <block id="5f06a8506759d69aa6bee6f9a20832c9" category="paragraph"><block ref="5f06a8506759d69aa6bee6f9a20832c9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3567ab10a436a237ecb220a3570e73e6" category="inline-link">Erstellen Sie Ihre Richtlinien mit Data Sense</block>
+  <block id="aac2820f28cdf9767df626982701f227" category="paragraph">In diesem Bereich werden zunächst Daten basierend auf den von uns ausgewählten Standardrichtlinien angezeigt. Sie können jedoch die 2 wichtigsten Daten Sense _Policies_ auswählen, die Sie erstellt haben, um Ihre wichtigsten Geschäftsdaten anzuzeigen. Informieren Sie sich darüber<block ref="ca4155a1a04193934b2931c2b97d49e7" category="inline-link-rx"></block>.</block>
+  <block id="d7a430aef362e0674d0e4f46cc4e0826" category="paragraph">Das Diagramm zeigt eine Berechtigungsanalyse aller Daten, die den Kriterien Ihrer Richtlinien entsprechen. Hier werden die Anzahl der Elemente aufgeführt, die:</block>
+  <block id="8ae6bb3a0525cfee738155927a6d3790" category="list-text">Offen für öffentliche Berechtigungen – die Elemente, die Data Sense als öffentlich betrachtet</block>
+  <block id="cf9aeda95b99fbd16f0e8d6a3445d6fa" category="list-text">Offen für Unternehmensberechtigungen – die Elemente, die von Data Sense als für Unternehmen offen erachtet werden</block>
+  <block id="155f037ceb6aa61bb6ff4100c3e66d82" category="list-text">Keine offenen Berechtigungen – die Elemente, die Data Sense als keine offenen Berechtigungen betrachtet</block>
+  <block id="19f8c3ecc67a44c9f2815adb94130679" category="list-text">Unbekannte Berechtigungen – die Elemente, die Data Sense als unbekannte Berechtigungen betrachtet</block>
+  <block id="777adf7159822b73f7439991204a99cc" category="paragraph">Bewegen Sie den Mauszeiger über die einzelnen Balken in den Diagrammen, um die Anzahl der Ergebnisse in jeder Kategorie anzuzeigen. Klicken Sie auf eine Leiste, und die Seite Data Sense Investigation wird angezeigt. So können Sie weitere Informationen darüber finden, welche Elemente über offene Berechtigungen verfügen und ob Sie Anpassungen an Dateiberechtigungen vornehmen sollten.</block>
+  <block id="01238444606a763f352d68cd714ac7c9" category="section-title">Backup-Status Ihrer geschäftskritischen Daten</block>
+  <block id="0491f5d6ebe0fed41bfa46c7e738b75d" category="paragraph">Das Fenster _Backup Status_ zeigt an, wie verschiedene Datenkategorien durch Cloud Backup geschützt werden. So finden Sie heraus, wie umfassend Ihre wichtigsten Daten-Kategorien gesichert werden, falls Sie eine Recovery aufgrund eines Ransomware-Angriffs durchführen müssen. Diese Daten stellen eine visuelle Darstellung dar, wie viele Elemente einer bestimmten Kategorie in einer Arbeitsumgebung gesichert werden.</block>
+  <block id="e06ca176fe4562d53f395cf2b90b6a53" category="paragraph">In diesem Bereich wird nur On-Premises-ONTAP- und Cloud Volumes ONTAP-Arbeitsumgebungen angezeigt, die bereits über Cloud Backup _und_ gescannt wurden, die über Cloud Data Sense verwendet werden.</block>
+  <block id="2f022aed3bb5c1786e608506446300af" category="inline-image-macro">Ein Screenshot des Backup-Status für die Daten, die Sie managen, auf dem Ransomware Protection Dashboard.</block>
+  <block id="30af967d53499711f7ea42b108e0b563" category="paragraph"><block ref="30af967d53499711f7ea42b108e0b563" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b0b5ccb4a195a07fd3eed14affb8695f" category="inline-link">Kategorien</block>
+  <block id="f6c10502779e9890e96477c5311d212f" category="paragraph">Zunächst zeigt dieses Panel Daten basierend auf Standardkategorien, die wir ausgewählt haben. Sie können aber auch die Kategorien von Daten auswählen, die Sie nachverfolgen möchten; z. B. Codes von Dateien, Verträgen usw. Siehe die vollständige Liste von<block ref="cffd3331f5cb204084a40331444df4fd" category="inline-link-rx"></block> Die sind von Cloud Data Sense für Ihre Arbeitsumgebungen verfügbar. Wählen Sie dann bis zu 4 Kategorien aus.</block>
+  <block id="d6eb5dc1abeab0ff34111bbaa52c3db3" category="paragraph">Wenn die Daten ausgefüllt sind, bewegen Sie den Mauszeiger über jedes Quadrat in den Diagrammen, um die Anzahl der Dateien anzuzeigen, die aus allen Dateien in derselben Kategorie in der Arbeitsumgebung gesichert werden. Ein grünes Quadrat bedeutet, dass 85 % oder mehr Ihrer Dateien gesichert werden. Ein gelbes Quadrat bedeutet, dass 40% bis 85% der Dateien gesichert werden. Und ein rotes Rechteck bedeutet, dass 40 % oder weniger Dateien gesichert werden.</block>
+  <block id="64628bf468a5ee0496f0473de70d137e" category="paragraph">Sie können am Ende der Zeile auf die Schaltfläche *Cloud Backup* klicken, um zur Cloud Backup-Schnittstelle zu wechseln, um Backups auf mehr Volumes in jeder Arbeitsumgebung zu ermöglichen.</block>
+  <block id="405143bfaa110853e4d2f54d441dc966" category="section-title">Schwachstellen im Storage-System</block>
+  <block id="39c288607935bbcd6a5e5beebacaca94" category="paragraph">Das Fenster _Speichersystemschwachstellen_ zeigt die Gesamtzahl der hohen, mittleren und niedrigen Sicherheitslücken, die das Active IQ Digital Advisor Tool auf jedem Ihrer ONTAP Cluster gefunden hat. Hohe Schwachstellen sollten sofort untersucht werden, um sicherzustellen, dass Ihre Systeme nicht für Angriffe geöffnet sind.</block>
+  <block id="ee68e5b99222bbc29a480fcb0d1d6ee2" category="list-title">Voraussetzungen</block>
+  <block id="9b09309c4227afb6699452bf8aa8aa8f" category="list-text">Der BlueXP Connector muss vor Ort installiert werden, nicht bei einem Cloud-Provider.</block>
+  <block id="6396ca38c07f87379dfa3195454dace7" category="list-text">Sie benötigen ein ONTAP Cluster vor Ort</block>
+  <block id="7ef9799704616e28eedfce0c1eade885" category="list-text">Das Cluster ist in Active IQ konfiguriert</block>
+  <block id="ced5668f75768b259ef2a204f1cedb27" category="list-text">Sie müssen ein vorhandenes NSS-Konto in BlueXP registriert haben, um Ihre Cluster anzuzeigen und die Active IQ Digital Advisor-Benutzeroberfläche anzuzeigen.</block>
+  <block id="34f92b1850e1cdf66e015c3b8371ebbb" category="paragraph">Beachten Sie, dass Sie den Active IQ Digital Advisor direkt anzeigen können, indem Sie im BlueXP-Menü * Health &gt; Digital Advisor* auswählen.</block>
+  <block id="66da556f69b9ec778bf49ecfe334b601" category="inline-image-macro">Ein Screenshot, der die Anzahl der Sicherheitsschwachstellen in Ihren ONTAP Storage-Systemen zeigt.</block>
+  <block id="47909da8bb7b784e366ab80708be83e4" category="paragraph"><block ref="47909da8bb7b784e366ab80708be83e4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8aec6a2bcfb78af1fffa4f2c52dfe49d" category="inline-link">Active IQ Digital Advisor Dokumentation</block>
+  <block id="d723f43a70f399d7a0f86c390ba81e58" category="paragraph">Klicken Sie auf die Art der Sicherheitsanfälligkeit (hoch, Mittel, Niedrig), die für einen der Cluster angezeigt werden soll, und Sie werden auf die Seite Sicherheitslücke in Active IQ Digital Advisor umgeleitet. (Mehr über diese Seite finden Sie im<block ref="8ad06033788415355350a8b1bf176822" category="inline-link-rx"></block>.) Sie können die Sicherheitsanfälligkeiten anzeigen und anschließend die empfohlene Aktion befolgen, um das Problem zu beheben. Oftmals ist es dann die Lösung, ein Upgrade der ONTAP Software auf eine Point-Release- oder eine Vollversion durchzuführen, die die Sicherheitsanfälligkeit behebt.</block>
+  <block id="9b152bad0a8266f91e1636404423e5a5" category="section-title">Daten in Volumes, die mit SnapLock geschützt werden</block>
+  <block id="9a65b9af7cdd7140aa92badfb028d99d" category="paragraph">Mit der NetApp SnapLock Technologie auf den ONTAP Volumes bleiben Dateien zu regulatorischen Zwecken in unveränderter Form erhalten. Sie können Dateien und Snapshot-Kopien auf WORM-Storage (Write Once, Read Many) festschreiben und Aufbewahrungszeiträume für diese WORM-geschützten Daten festlegen.<block ref="dcc3f78a7e79522d0c4cab62e1e1a775" category="inline-link-rx"></block>.</block>
+  <block id="10f55e45fca2c3caee6aef471ec2cd59" category="paragraph">Die_kritische Unveränderlichkeit_Unveränderlichkeit_zeigt die Anzahl der Elemente in Ihrer Arbeitsumgebung, die dank der ONTAP SnapLock Technologie vor Modifizierung und Löschung in WORM-Storage geschützt sind. So sehen Sie, wie viele Ihrer Daten eine unveränderliche Kopie haben, damit Sie ein besseres Verständnis Ihrer Backup- und Recovery-Pläne gegen Ransomware erhalten.</block>
+  <block id="4b7bcdfe0ea5faa891175ac4493d96b6" category="list-text">Sie müssen auf mindestens einem Knoten im Cluster eine *SnapLock*-Lizenz installiert haben</block>
+  <block id="363a44e83a69120726370926c1f5686b" category="inline-image-macro">Screenshot der Unveränderlichkeit kritischer Daten in Ihren ONTAP Storage-Systemen</block>
+  <block id="427d38254d8a53ae40c65bd47f5787d8" category="paragraph"><block ref="427d38254d8a53ae40c65bd47f5787d8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4a064b3d929e36aa418be80020ee8639" category="paragraph">Im Bereich werden die folgenden Informationen zu den Daten angezeigt, die den ausgewählten Richtlinien entsprechen:</block>
+  <block id="06d95d1e209921413752e4f0c6c94cd6" category="list-text">Die Anzahl der geschäftskritischen Dateien in allen gescannten Arbeitsumgebungen, die für die Verwendung von SnapLock konfiguriert sind.</block>
+  <block id="ab81e10fb8e6c49c700a4403522284ec" category="list-text">Die Anzahl der geschäftskritischen Dateien in allen gescannten Arbeitsumgebungen mit Ausnahme der für SnapLock konfigurierten Dateien. Beachten Sie, dass einige dieser Dateien mit einem anderen Mechanismus als SnapLock geschützt werden können.</block>
+  <block id="1aab5d2ae8a408600a295501759e1a98" category="paragraph">Richtlinien für den Datensinn, die die folgenden Filter enthalten, sind in der Dropdown-Liste für ausgewählte Richtlinien nicht verfügbar, da sie wichtige Suchbereiche ausschließen:</block>
+  <block id="e39236d23fb63bab78a9ca2abc0cc5e9" category="list-text">Name der Arbeitsumgebung</block>
+  <block id="6c63358fa61dbacebcb3b3cabf06b4f3" category="list-text">Art der Arbeitsumgebung</block>
+  <block id="8e1608d6951087912c426bcb53d12280" category="list-text">Storage Repository</block>
+  <block id="f7585dca02f941492ce2a56cecf7b71f" category="list-text">Dateipfad</block>
+  <block id="6bc0493d09cc429d2ec14f5a822b5e0a" category="paragraph">Denken Sie also daran, Ihre wichtigen Geschäftsdaten über die Richtlinien zur Unveränderlichkeit kritischer Daten im Panel „_kritische Daten“ anzuzeigen.</block>
+  <block id="c28bb24720dd383d7a0b5ae4027369b4" category="section-title">Ransomware-Vorfälle auf Ihren Systemen erkannt</block>
+  <block id="c7630d19591488ab3a1607b637eabc54" category="paragraph">Ransomware-Vorfälle, die auf Ihren gemanagten Systemen erkannt wurden, werden als Warnmeldungen im Fenster „ _Ransomware Incidents_“ angezeigt. Dazu gehören Datenbeschädigung und Verschlüsselungereignisse. In diesem Fenster wird die Anzahl der verschlüsselten Dateien angezeigt, die im verdächtigen Volume identifiziert wurden, die Art der Dateierweiterungen und der Zeitpunkt, zu dem der Angriff stattgefunden hat.</block>
+  <block id="16135acbc32c7e8ab88519d9d0f56666" category="inline-image-macro">Ein Screenshot der Ransomware-Vorfälle Panel.</block>
+  <block id="7ad0aa30c7cf42540304daceefad2ef3" category="paragraph"><block ref="7ad0aa30c7cf42540304daceefad2ef3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ec9614a46239aa59499c4a94e919963a" category="inline-link">Hier erfahren Sie mehr</block>
+  <block id="67b02887410826f72fc672a3a4e7200d" category="paragraph">Aktuell werden ONTAP Cluster vor Ort unterstützt, auf denen Autonomous Ransomware Protection (ARP) ausgeführt wird. ARP nutzt Workload-Analysen in NAS-Umgebungen (NFS und SMB), um ungewöhnliche Aktivitäten, die auf einen Ransomware-Angriff hinweisen könnten, proaktiv zu erkennen und zu warnen.<block ref="f3117a633e55dd0ab6cb8e66626e971f" category="inline-link-rx"></block>.</block>
+  <block id="0d4dc95bdc8cb2ed3a700023c01033d4" category="inline-link">Weitere Informationen zu Cloud Secure</block>
+  <block id="89da35073197afa30d21c49a3c60c2f3" category="paragraph">Um die Vorfälle zu analysieren, müssen Sie NetApp Cloud Secure installiert und konfiguriert haben.<block ref="1623a7989c41e85d14f0f92414ba0b90" category="inline-link-rx"></block>. Dann können Sie auf die Schaltfläche *Analyse* klicken, um Empfehlungen für Ihre nächsten Schritte bei der Lösung des Problems zu erhalten.</block>
+  <block id="2cf577666472c7688899bb4d6dc40cb1" category="list-text">Sie müssen über einen lokalen ONTAP-Cluster verfügen, der ONTAP 9.10.1 oder höher ausführt</block>
+  <block id="00c4428a8d1761dc9bb876ab9d4eb18f" category="list-text">Sie müssen über eine *MT_EK_MGMT*-Lizenz (Multi-Tenant Key Management) (ONTAP 9.10) oder *Anti_Ransomware*-Lizenz (ONTAP 9.11.1 +) auf mindestens einem Knoten im Cluster verfügen</block>
+  <block id="c9f8f33520cc7d63da9dfc7fbbdd2b67" category="list-text">NetApp ARP muss 30 Tage lang, auch „dry run“ genannt, aktiviert sein, bevor die Daten in den „aktiven Modus“ gewechselt werden können, damit ausreichend Zeit zur Beurteilung der Workload-Eigenschaften und zur korrekten Meldung verdächtiger Ransomware-Angriffe vorhanden ist.</block>
+  <block id="d759e97ebb04097c8dee30fc845cc996" category="summary">Alles zum Schutz vor Ransomware.</block>
+  <block id="ca151642aca499fd94ee2307ea084a75" category="doc">Was ist neu mit Ransomware Schutz</block>
+  <block id="ff3a8dd75b4d3881ab0fc4ce17301af8" category="section-title">7. November 2022</block>
+  <block id="7c16758604271d7ef3055d0e5962ec82" category="section-title">Neue Panels zur Anzeige Ihrer gesamten Ransomware-Schutzpunktzahl und empfohlenen Maßnahmen</block>
+  <block id="2dad48bc5cb886ca6327e125bc6c853d" category="paragraph">Diese beiden neuen Felder arbeiten zusammen, um zu ermitteln, wie stabil Ihre Daten bei einem Ransomware-Angriff ist und was Sie tun können, um Ihren Wert zu verbessern. Die Ransomware Protection Score Panel zeigt die Gesamtpunktzahl und die Bereiche der Cybersicherheit, wo potenzielle Probleme bestehen. Im Bereich Empfohlene Maßnahmen werden die potenziellen Maßnahmen aufgeführt, die Sie ergreifen können, um Ihre Widerstandsfähigkeit gegen einen Ransomware-Angriff zu verbessern. Darüber hinaus erhalten Sie einen Link zur Untersuchung des Problems, damit Sie die Maßnahmen gegebenenfalls anwenden können.<block ref="020baa7d67cad4299bb33f9b5861968a" category="inline-link-rx"></block>.</block>
+  <block id="8c70b531876f0aad87de3df8d9049545" category="section-title">6. September 2022</block>
+  <block id="4f400ad3636bf9ccb8a232e152ae3a56" category="section-title">Neues Panel zur Anzeige von Ransomware-Vorfällen auf Ihren Clustern erkannt</block>
+  <block id="2cadd98d70cc36a0982305ace71488f2" category="paragraph">Der Bereich _Ransomware Incidents_ zeigt Ransomware-Angriffe auf Ihren Systemen. Aktuell werden ONTAP Cluster vor Ort unterstützt, auf denen Autonomous Ransomware Protection (ARP) ausgeführt wird. ARP nutzt Workload-Analysen in NAS-Umgebungen (NFS und SMB), um ungewöhnliche Aktivitäten, die auf einen Ransomware-Angriff hinweisen könnten, proaktiv zu erkennen und zu warnen.<block ref="a8b3634a0c7a594234502955588cc1db" category="inline-link-rx"></block>.</block>
+  <block id="5aa38ee0e17acbfece3b3bc0fdb18bab" category="section-title">7. August 2022</block>
+  <block id="1e945f34aa7e283df49e7bc1f6e519fc" category="section-title">Neues Panel zur Anzeige von Sicherheitsschwachstellen auf Ihren Clustern</block>
+  <block id="6aa300e24ddf3ee5a99bbb1cf5bb4a72" category="inline-link">Weitere Informationen finden Sie hier</block>
+  <block id="cad6252563f98c3f1a50da37df91528f" category="paragraph">Das Fenster _Speichersystemschwachstellen_ zeigt die Gesamtzahl der hohen, mittleren und niedrigen Sicherheitslücken, die das Active IQ Digital Advisor Tool auf jedem Ihrer ONTAP Cluster gefunden hat. Hohe Schwachstellen sollten sofort untersucht werden, um sicherzustellen, dass Ihre Systeme nicht für Angriffe geöffnet sind.<block ref="6385dc99da0ff6c045e59c001938f4ed" category="inline-link-rx"></block>.</block>
+  <block id="681c888dc1b5514c36d2da9636ab4d27" category="section-title">Neues Fenster zum Anzeigen unveränderlicher gescannter Dateien</block>
+  <block id="95055437ddc6fef4303145322941a60e" category="paragraph">Die_kritische Unveränderlichkeit_Unveränderlichkeit_zeigt die Anzahl der Elemente in Ihrer Arbeitsumgebung, die dank der ONTAP SnapLock Technologie vor Modifizierung und Löschung in WORM-Storage geschützt sind. So sehen Sie, wie viele Ihrer Daten eine unveränderliche Kopie haben, damit Sie ein besseres Verständnis Ihrer Backup- und Recovery-Pläne gegen Ransomware erhalten.<block ref="2a21419eb985c05c07ba644754fc60a5" category="inline-link-rx"></block>.</block>
+  <block id="f8c7ea9d64a54c9a1eb4c1cbc5ef066e" category="section-title">12. Juni 2022</block>
+  <block id="ee4612ccbf2c1a0b8e01a1dc2992487f" category="section-title">Der NAS-Filesystem-Audit-Status wird jetzt für Ihre ONTAP Storage VMs nachverfolgt</block>
+  <block id="9e0f0ecbfec67c585b4269b113f30ee3" category="paragraph">Der _Cyber Resilience Map_ wird eine Warnmeldung hinzugefügt, wenn in weniger als 40 % der Storage VMs in der Arbeitsumgebung die Dateisystemprüfung aktiviert ist. Sie können die genaue Anzahl der SVMs anzeigen, die SMB- und NFS-Ereignisse nicht in einem Audit-Protokoll im Fenster „_Harden Your ONTAP Environment_“ nachverfolgen und protokollieren. Anschließend können Sie entscheiden, ob das Auditing über diese SVMs aktiviert werden soll.</block>
+  <block id="9f8d82fd59d602cd8a59ae988c97d5e6" category="section-title">Warnmeldungen werden jetzt angezeigt, wenn On-Box-Anti-Ransomware nicht für Ihre Volumes aktiv ist</block>
+  <block id="5e75c953b6169be120d3ab03b8f54b15" category="paragraph">Diese Informationen wurden zuvor im Panel _Harden Your ONTAP Environments_ für On-Prem-ONTAP-Systeme gemeldet. Aber jetzt wird in der _Cyber Resilience Map_ ein Alarm gemeldet, wenn die integrierte Anti-Ransomware-Funktion in weniger als 40 % der Volumes aktiviert ist, damit Sie diese Informationen im Dashboard anzeigen können.</block>
+  <block id="cc1796d3f81dc9429436a972e383c713" category="section-title">FSX für ONTAP Systeme werden nun für die Aktivierung von Volume Snapshots nachverfolgt</block>
+  <block id="e59924af0c76a1072bb2a4cb349960b8" category="paragraph">Das Fenster „ _Harden Your ONTAP Environments_“ stellt jetzt den Status von Snapshot Kopien für Volumes auf Ihren FSX für ONTAP Systeme bereit. Wenn weniger als 40 % der Volumes durch Snapshots geschützt werden, erhalten Sie auch eine Warnung in der _Cyber Resilience Map_.</block>
+  <block id="7d6adafb3c8bb3861e1f6a4ca4b68455" category="section-title">11 Mai 2022</block>
+  <block id="ab2a86429c9a87e5d3019d275a5cfb4d" category="section-title">Neues Panel zur Überwachung der Sicherheit in Ihren ONTAP-Umgebungen</block>
+  <block id="5e5a2d8b7f4ac8723d3873b0ba14916e" category="paragraph">Ein neues Panel _Harden Your ONTAP Environments_ gibt den Status bestimmter Einstellungen in Ihren ONTAP-Systemen an, die verfolgen, wie sicher Ihre Bereitstellung gemäß dem ist<block ref="060f8a2b53a60ac49c67caafaf5b129f" category="inline-link-rx"></block> Und zum<block ref="0be7bd5b5f280e211653a4c6e05c11a6" category="inline-link-rx"></block> Die ungewöhnliche Aktivitäten proaktiv erkennen und warnen.</block>
+  <block id="914a5a27ea412edf84bb416054ec6d75" category="paragraph">Sie können die Empfehlungen prüfen und anschließend entscheiden, wie Sie potenzielle Probleme beheben möchten. Sie können die Schritte befolgen, um die Einstellungen auf Ihren Clustern zu ändern, die Änderungen auf ein anderes Mal zu verschieben oder den Vorschlag zu ignorieren.<block ref="87553c653b94d5529a2080374ec70030" category="inline-link-rx"></block>.</block>
+  <block id="0bcaeb5db18a29ede99b5fa22ca702dd" category="section-title">Neues Fenster zum Schutz verschiedener Datenkategorien mit Cloud Backup</block>
+  <block id="ed35eae63358acfc6c38aefc0b7736d0" category="paragraph">In diesem neuen _Backup Status_ Panel wird aufgezeigt, wie umfassend Ihre wichtigsten Datenkategorien gesichert werden, falls Sie eine Wiederherstellung aufgrund eines Ransomware-Angriffs benötigen. Diese Daten sind in einer visuellen Darstellung der Anzahl der durch Cloud Backup gesicherten Elemente einer bestimmten Kategorie in einer Umgebung dargestellt.<block ref="eddc9c9a841fbf81e5d5b5a19c7e11a3" category="inline-link-rx"></block>.</block>
+  <block id="f670023c78e0e3dbeb691779659d5049" category="section-title">15 März 2022</block>
+  <block id="70ca849e4710f5c98451b61f2b47e5a8" category="section-title">Neues Feld, um den Berechtigungsstatus Ihrer geschäftskritischen Daten zu verfolgen</block>
+  <block id="f0affd41380a1f75f1e8cb0eb63a3746" category="paragraph">Ein neues Panel _Analyse von geschäftskritischen Datenberechtigungen_ zeigt den Berechtigungsstatus von Daten an, die für Ihr Unternehmen von entscheidender Bedeutung sind. So können Sie schnell einschätzen, wie gut Sie Ihre geschäftskritischen Daten schützen.<block ref="20409d23480e4ebcd1abe3eb7cf44ef8" category="inline-link-rx"></block>.</block>
+  <block id="1029db4aa82b2fd39d624a6eda513d6c" category="section-title">Öffnen Sie Permissions Area umfasst nun OneDrive- und SharePoint-Konten</block>
+  <block id="52a3db95e0c303b6251e8f60de3b3f3d" category="paragraph">Der Bereich „Offene Berechtigungen“ im Ransomware Protection Dashboard umfasst nun die Berechtigungen für Dateien, die in OneDrive-Konten und SharePoint-Konten gescannt werden.</block>
+  <block id="17fc50243c5a80f407e83d268bcab18e" category="section-title">9 Februar 2022</block>
+  <block id="67ecb98d51fb7fee47f7f4c979becfa6" category="section-title">Neuer Ransomware-Schutz Service</block>
+  <block id="c05006d715a916b10a4f130817c81c90" category="paragraph">Mit dem neuen Ransomware-Schutz-Service können Sie relevante Informationen über Cybersicherheit anzeigen und beurteilen, wie belastbar Ihre Daten für einen Cyber-Angriff sind. Außerdem erhalten Sie eine Liste mit Alarmen und Lösungen, um Ihre Daten sicherer zu machen.</block>
+  <block id="7e0c2cf881384db7bfcfb883b67871a5" category="inline-link-macro">Erfahren Sie mehr über diesen neuen Service</block>
+  <block id="07af92e755dcb6b8c74060d22fcc7077" category="paragraph"><block ref="12a8d1a9d44e422c8f9c04ab83945381" category="inline-link-macro-rx"></block>.</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Rechtliche Hinweise</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">Rechtliche Hinweise ermöglichen den Zugriff auf Copyright-Erklärungen, Marken, Patente und mehr.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">Urheberrecht</block>
+  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">Marken</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, das NETAPP Logo und die auf der NetApp Markenseite aufgeführten Marken sind Marken von NetApp Inc. Andere Firmen- und Produktnamen können Marken der jeweiligen Eigentümer sein.</block>
+  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">Patente</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Eine aktuelle Liste der NetApp Patente finden Sie unter:</block>
+  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Datenschutzrichtlinie</block>
+  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Open Source</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">In den Benachrichtigungsdateien finden Sie Informationen zu Urheberrechten und Lizenzen von Drittanbietern, die in der NetApp Software verwendet werden.</block>
+  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">Hinweis für BlueXP</block>
+  <block id="e8a6d0f19a957eac14b9917a6c92899b" category="list-text"><block ref="e8a6d0f19a957eac14b9917a6c92899b" category="inline-link-rx"></block></block>
+  <block id="8aa5491f5b5232be0b1b2e9832e6ee88" category="sidebar">Schutz vor Ransomware</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">Versionshinweise</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">Los geht's</block>
+  <block id="ff71aed576b50f0fbabb96a497a02a66" category="sidebar">Verwenden Sie Ransomware-Schutz</block>
+  <block id="ca220ec73e2808103cecaebaa1673c00" category="sidebar">Managen Sie Cyber-Sicherheitsempfehlungen für Ihre Daten</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Wissen und Support</block>
+  <block id="5fef629b836b60819e0c0ce49cd2b9d7" category="sidebar">Was ist neu</block>
+  <block id="28137d4c8a28434b09975d45b1f7e23d" category="sidebar">Managen Sie Empfehlungen zur Cybersicherheit</block>
+  <block id="5d4f4726c60ca3e35eade8bcf995db80" category="sidebar">Anzeige von oberen Daten-Repositorys nach Datenempfindlichkeit</block>
+  <block id="556329b544a374958ffce22952a43279" category="sidebar">Benutzer anzeigen, die zu Domänenadministratorgruppen hinzugefügt wurden</block>
+  <block id="69c8976f1625efb61bf0efc6812463e5" category="sidebar">Anzeigen von Daten, die nach offenen Berechtigungen aufgeführt sind</block>
+  <block id="0dd6a421b68193615b3385a2733cdc72" category="sidebar">Zeigen Sie die in verschlüsselten Dateien aufgelisteten Daten an</block>
+  <block id="23d8e653f2d8934c45e811223bcdf92b" category="sidebar">So schützen Sie Ihre ONTAP Systeme sicher vor Ransomware</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">Blogs Community</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp Community</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP-Blog</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Cloud-Webinare</block>
+  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Alle BlueXP-Dokumentationen</block>
+</blocks>
