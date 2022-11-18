@@ -24,7 +24,7 @@ image:screenshot_ransomware_dashboard.png["Ein Screenshot des Ransomware Protect
 
 == Ransomware-Schutzpunktzahl und empfohlene Maßnahmen
 
-Das Bedienfeld „Ransomware Protection Score“ bietet eine einfache Möglichkeit, zu erkennen, wie stabil Ihre Daten bei einem Ransomware-Angriff ist. Dieses Panel funktioniert in Verbindung mit dem Fenster Empfohlene Maßnahmen. Es gibt zwei Teile der Ransomware Protection Score Panel:
+Das Bedienfeld „Ransomware Protection Score“ bietet eine einfache Möglichkeit, zu erkennen, wie stabil Ihre Daten bei einem Ransomware-Angriff ist. Es ist eine Zusammenfassung aller Maßnahmen, die empfohlen werden, um Ihre Datensicherheit und Cyber-Ausfallsicherheit zu verbessern. Dieses Panel funktioniert in Verbindung mit dem Fenster Empfohlene Maßnahmen. Es gibt zwei Teile der Ransomware Protection Score Panel:
 
 * Der Gesamtbewertung für Ihre Daten (0 – 100 % geschützt)
 +
@@ -46,7 +46,7 @@ image:screenshot_ransomware_protection_score1.png["Ein Screenshot mit dem Fenste
 
 Auf dieser Beispielseite gibt es nur einen einzigen Empfehlungstyp für die Kategorie „Schutz“. Und diese Empfehlung gilt für 258 Dateien.
 
-Dieses Fenster unterstützt Datenquellen, die Cloud Data Sense hinzugefügt wurden.
+Dieses Panel unterstützt Arbeitsumgebungen und Datenquellen, die dem Cloud Data Sense hinzugefügt wurden.
 
 Beachten Sie, dass die Empfehlungen pro Datenquelle gelten. Wenn also dieselbe Empfehlung für 3 Datenquellen relevant ist, wird sie als 3 Empfehlungen gezählt.
 
@@ -58,7 +58,7 @@ Um die detaillierte Liste der Daten zu sehen, die mit einer empfohlenen Aktion i
 
 Dann können Sie entscheiden, ob Sie die empfohlene Aktion auf alle diese Dateien anwenden möchten, oder nur auf einigen von ihnen.
 
-Nachdem Sie die empfohlene Aktion behoben haben, wird die nächste Aktualisierung der Ransomware Protection Score Panel (alle 5 Minuten) die Zahl für die Punktzahl anpassen.
+Nachdem Sie die empfohlene Aktion behoben haben, wird die nächste Aktualisierung der Ransomware Protection Score Panel (alle 5 Minuten) die Zahl für die Punktzahl anpassen. Sie können auch auf die Schaltfläche *Aktualisieren* klicken, um die Seite jetzt zu aktualisieren.
 
 
 
