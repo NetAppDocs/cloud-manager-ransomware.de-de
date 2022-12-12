@@ -44,7 +44,7 @@ Die drei Arten der empfohlenen Maßnahmen entsprechen dem https://www.ftc.gov/bu
 
 image:screenshot_ransomware_protection_score1.png["Ein Screenshot mit dem Fenster „Ransomware Protection Score“ und dem Fenster „Recommended Actions“."]
 
-Auf dieser Beispielseite gibt es nur einen einzigen Empfehlungstyp für die Kategorie „Schutz“. Und diese Empfehlung gilt für 258 Dateien.
+Auf dieser Beispielseite gibt es sieben empfohlene Aktionen für die Kategorie „Schutz“. Die erste Empfehlung gilt für 258 Dateien.
 
 Dieses Panel unterstützt Arbeitsumgebungen und Datenquellen, die dem Cloud Data Sense hinzugefügt wurden.
 
@@ -58,16 +58,27 @@ Um die detaillierte Liste der Daten zu sehen, die mit einer empfohlenen Aktion i
 
 Dann können Sie entscheiden, ob Sie die empfohlene Aktion auf alle diese Dateien anwenden möchten, oder nur auf einigen von ihnen.
 
-Nachdem Sie die empfohlene Aktion behoben haben, wird die nächste Aktualisierung der Ransomware Protection Score Panel (alle 5 Minuten) die Zahl für die Punktzahl anpassen. Sie können auch auf die Schaltfläche *Aktualisieren* klicken, um die Seite jetzt zu aktualisieren.
+Nachdem Sie die empfohlene Aktion behoben haben, wird die nächste Aktualisierung der Ransomware Protection Score Panel (alle 5 Minuten) die Zahl für die Punktzahl anpassen. Sie können auch auf die Schaltfläche *Re-Scan* klicken, um die Seite jetzt zu aktualisieren.
 
 
 
 === Liste empfohlener Maßnahmen
 
-Derzeit wird nur im Hinblick auf eine empfohlene Maßnahme geprüft, ob sensible Daten in ungeschützten Datenquellen gespeichert sind – an Orten, an denen Ransomware-Datensicherungssoftware nicht schützen kann. Mit Data Sense können Sie diese Dateien schnell in eine besser geschützte Datenquelle verschieben. Sie werden die Funktion „Data Sense“ nutzen https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-highlights.html#moving-source-files-to-an-nfs-share["Quelldateien in eine NFS-Freigabe verschieben"^].
+Hier handelt es sich um die derzeit aufgezeichneten Maßnahmen und Lösungsvorschläge.
 
-In der Regel verfügen IT-Abteilungen über Richtlinien, die sensible Daten von bestimmten Unternehmensstandorten einschränken. Diese empfohlene Aktion ermöglicht es Ihnen, die Dateien mit sensiblen Daten zu identifizieren und sie in eine sicherere Datenquelle zu verschieben, wo sensible *GESPEICHERT werden kann*.
+[cols="33,33,33"]
+|===
+| Empfohlene Maßnahmen | Beschreibung | Mögliche Lösung 
 
+
+| Reduzieren Sie die Berechtigungen für X-sensible Elemente mit breiten Berechtigungen | In Ihren Datenquellen von Cloud Data Sense finden Sie sensible Dateien mit offenen Berechtigungen. Dazu zählen alle sensiblen Daten (personenbezogene Daten und sensible personenbezogene Daten), die „offen für Unternehmen“ oder „öffentlich zugänglich“ sind. | Klicken Sie für jede Datenquelle auf die Schaltfläche *untersuchen* und Sie werden auf die Seite Data Sense Investigation mit der Liste aller Dateien weitergeleitet, die die Kriterien für die empfohlene Aktion in dieser Datenquelle erfüllen. Dann können Sie entscheiden, wie Sie die breiten Berechtigungen auf diese Dateien reduzieren. 
+
+
+| Verschieben Sie X-sensible Elemente von nicht geschützten Y-Datenquellen in sichere Speicherorte | Sensible Daten sind durch Cloud Data Sense in ungeschützten Datenquellen vorhanden. An diesen Orten kann die Ransomware-Datensicherungssoftware nicht schützen. In der Regel verfügen IT-Abteilungen über Richtlinien, die sensible Daten von bestimmten Unternehmensstandorten einschränken. Diese empfohlene Aktion ermöglicht es Ihnen, die Dateien mit sensiblen Daten zu identifizieren und sie in eine sicherere Datenquelle zu verschieben, wo sensible *gespeichert werden darf. | Mit Data Sense können Sie diese Dateien schnell in eine besser geschützte Datenquelle verschieben. Sie werden die Funktion „Data Sense“ nutzen https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-highlights.html#moving-source-files-to-an-nfs-share["Quelldateien in eine NFS-Freigabe verschieben"^]. 
+
+
+| Patch X Open CVEs über Y-Datenquellen hinweg | Nicht patched CVEs (allgemeine Schwachstellen und Exposé) wurden auf den On-Premises-ONTAP-Systemen und/oder Cloud Volumes ONTAP-Systemen gefunden. Diese Probleme werden nur erkannt, wenn das Produkt Digital Advisor (ehemals Active IQ Digital Advisor) in Ihre Speichersysteme integriert ist. Hierbei handelt es sich um bekannte Schwachstellen in NetApp Storage-Systemen, deren Behebung des CVE-Problems ermittelt wurde. NetApp CVEs sind im aufgeführt https://security.netapp.com/advisory/["Produktsicherheitsseite"^]. | Klicken Sie für jede Datenquelle auf die Schaltfläche *Digital Advisor*, und Sie werden im Digital Advisor zur Seite _Security Vulnerabilities_ weitergeleitet. Dort werden die Details zu den geöffneten CVEs sowie die empfohlene Aktion zum Beheben der einzelnen CVE angezeigt. Häufig wird die Lösung auch auf ein Upgrade der ONTAP Software auf dem System ausgeführt. https://docs.netapp.com/us-en/active-iq/task_increase_protection_against_hackers_and_Ransomware_attacks.html["Erfahren Sie mehr über die Seite Sicherheitslücke"]. 
+|===
 
 
 == Cyber Resilience Map
@@ -102,16 +113,16 @@ Es handelt sich dabei um die derzeit nachverfolgten Warnungen und vorgeschlagene
 | Ein oder mehrere Repositorys (Volumes, Buckets usw.) in Ihren Datenquellen werden nicht nach Data Sense gescannt | Einige Daten in Ihren Datenquellen werden nicht mit gescannt https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["Cloud-Daten Sinnvoll"^] Um Compliance- und Datenschutzbedenken zu identifizieren und Optimierungsmöglichkeiten zu finden. | Klicken Sie auf den Link, um den Datensense zu starten und das Scannen und die Zuordnung für die nicht gescannten Elemente zu aktivieren. 
 
 
-| On-box Anti-Ransomware ist nicht für alle Volumes aktiv | Einige Volumes im lokalen ONTAP-System haben die nicht https://docs.netapp.com/us-en/ontap/anti-ransomware/enable-task.html["NetApp Funktion zur Bekämpfung von Ransomware"^] Aktiviert. | Klicken Sie auf den Link, und Sie werden zu weitergeleitet  of ONTAP systems hardening,Härten Sie Ihre ONTAP Umgebung Panel Und in die Arbeitsumgebung mit dem Problem. Dort können Sie herausfinden, wie das Problem am besten behoben werden kann. 
+| On-box Anti-Ransomware ist nicht für alle Volumes aktiv | Einige Volumes im lokalen ONTAP-System haben die nicht https://docs.netapp.com/us-en/ontap/anti-ransomware/enable-task.html["NetApp Funktion zur Bekämpfung von Ransomware"^] Aktiviert. | Klicken Sie auf den Link, und Sie werden zu weitergeleitet <<Status der Erhöhung des Status der ONTAP Systemhärtung,Härten Sie Ihre ONTAP Umgebung Panel>> Und in die Arbeitsumgebung mit dem Problem. Dort können Sie herausfinden, wie das Problem am besten behoben werden kann. 
 
 
-| Die ONTAP-Version wurde nicht aktualisiert | Die auf Ihren Clustern installierte Version der ONTAP Software entspricht nicht den Empfehlungen von https://www.netapp.com/pdf.html?item=/media/10674-tr4569.pdf["NetApp Leitfaden zur verstärkte Sicherheit von ONTAP-Systemen"^]. | Klicken Sie auf den Link, und Sie werden zu weitergeleitet  of ONTAP systems hardening,Härten Sie Ihre ONTAP Umgebung Panel Und in die Arbeitsumgebung mit dem Problem. Dort können Sie herausfinden, wie das Problem am besten behoben werden kann. 
+| Die ONTAP-Version wurde nicht aktualisiert | Die auf Ihren Clustern installierte Version der ONTAP Software entspricht nicht den Empfehlungen von https://www.netapp.com/pdf.html?item=/media/10674-tr4569.pdf["NetApp Leitfaden zur verstärkte Sicherheit von ONTAP-Systemen"^]. | Klicken Sie auf den Link, und Sie werden zu weitergeleitet <<Status der Erhöhung des Status der ONTAP Systemhärtung,Härten Sie Ihre ONTAP Umgebung Panel>> Und in die Arbeitsumgebung mit dem Problem. Dort können Sie herausfinden, wie das Problem am besten behoben werden kann. 
 
 
-| Snapshots sind nicht für alle Volumes konfiguriert | Einige Volumes in der Arbeitsumgebung sind nicht durch die Erstellung von Volume Snapshots geschützt. | Klicken Sie auf den Link, und Sie werden zu weitergeleitet  of ONTAP systems hardening,Härten Sie Ihre ONTAP Umgebung Panel Und in die Arbeitsumgebung mit dem Problem. Dort können Sie herausfinden, wie das Problem am besten behoben werden kann. 
+| Snapshots sind nicht für alle Volumes konfiguriert | Einige Volumes in der Arbeitsumgebung sind nicht durch die Erstellung von Volume Snapshots geschützt. | Klicken Sie auf den Link, und Sie werden zu weitergeleitet <<Status der Erhöhung des Status der ONTAP Systemhärtung,Härten Sie Ihre ONTAP Umgebung Panel>> Und in die Arbeitsumgebung mit dem Problem. Dort können Sie herausfinden, wie das Problem am besten behoben werden kann. 
 
 
-| Das Auditing von Dateivorgängen ist nicht für alle SVMs aktiviert | Einige Storage-VMs in der Arbeitsumgebung sind nicht für das Filesystem-Auditing aktiviert. Es wird empfohlen, damit Sie die Benutzeraktionen auf Ihren Dateien verfolgen können. | Klicken Sie auf den Link, und Sie werden zu weitergeleitet  of ONTAP systems hardening,Härten Sie Ihre ONTAP Umgebung Panel Und in die Arbeitsumgebung mit dem Problem. Dort können Sie herausfinden, ob Sie NAS-Prüfungen auf Ihren SVMs aktivieren müssen. 
+| Das Auditing von Dateivorgängen ist nicht für alle SVMs aktiviert | Einige Storage-VMs in der Arbeitsumgebung sind nicht für das Filesystem-Auditing aktiviert. Es wird empfohlen, damit Sie die Benutzeraktionen auf Ihren Dateien verfolgen können. | Klicken Sie auf den Link, und Sie werden zu weitergeleitet <<Status der Erhöhung des Status der ONTAP Systemhärtung,Härten Sie Ihre ONTAP Umgebung Panel>> Und in die Arbeitsumgebung mit dem Problem. Dort können Sie herausfinden, ob Sie NAS-Prüfungen auf Ihren SVMs aktivieren müssen. 
 |===
 
 

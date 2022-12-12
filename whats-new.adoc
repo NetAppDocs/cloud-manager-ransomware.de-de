@@ -18,6 +18,22 @@ Alles zum Schutz vor Ransomware.
 
 
 
+== Bis 11. Dezember 2022
+
+
+
+=== Neue Empfohlene Maßnahmen wurden zur Ransomware Protection Score Panel hinzugefügt
+
+Für die folgenden Ransomware-Sicherungsprobleme in Ihren Storage-Systemen werden nun zwei neue Empfehlungen angezeigt:
+
+* _Berechtigungen für X-sensible Objekte mit breiten Berechtigungen verkleinern_ - in Ihren Datenquellen wurden sensible Dateien mit offenen Berechtigungen gefunden
+* _Patch X Open CVEs Across Y-Datenquellen_ - Unpatched CVEs wurden auf Ihren ONTAP-Systemen gefunden
+
+
+Sie können diese Aktionen in der UI auswählen und dann den Workflow befolgen, um die zugrunde liegenden Probleme zu lösen. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-analyze-ransomware-data.html#list-of-recommended-actions["Siehe die Liste aller empfohlenen Maßnahmen"].
+
+
+
 == 13. November 2022
 
 
