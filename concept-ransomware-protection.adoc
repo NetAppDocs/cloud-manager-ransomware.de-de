@@ -14,7 +14,7 @@ summary: Ransomware-Angriffe können das Unternehmen Zeit, Ressourcen und Image-
 
 
 [role="lead"]
-Ransomware-Angriffe können das Unternehmen Zeit, Ressourcen und Image-Schäden kosten. Mit dem BlueXP Ransomware Protection Service können Sie relevante Informationen zur Cybersicherheit anzeigen und beurteilen, wie widerstandsfähig Ihr Unternehmen ist für einen Cyber-Angriff. Außerdem erhalten Sie eine Liste mit Alarmen und Lösungen, um Ihre Daten sicherer zu machen.
+Ransomware-Angriffe können das Unternehmen Zeit, Ressourcen und Image-Schäden kosten. Mit dem BlueXP (früher Cloud Manager) Ransomware Protection Service können Sie relevante Informationen zur Cybersicherheit anzeigen und beurteilen, wie widerstandsfähig Ihr Unternehmen ist für einen Cyber-Angriff. Außerdem erhalten Sie eine Liste mit Alarmen und Lösungen, um Ihre Daten sicherer zu machen.
 
 https://cloud.netapp.com/cyberstorage["Erfahren Sie mehr über Anwendungsfälle zum Schutz vor Ransomware"^].
 

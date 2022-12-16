@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-analyze-ransomware-data.html 
 keywords: personal data, personal information, sensitive, personal sensitive data, governance, data sense, ransomware, ransomware protection, cyberstorage, cyber attack, cybersecurity, permissions 
-summary: Verwenden Sie das Ransomware Protection Dashboard, um einen Überblick über die Cyber-Ausfallsicherheit aller Ihrer BlueXP-Arbeitsumgebungen und Datenquellen zu erhalten. Sie können in jedem Bereich nach unten gehen, um weitere Details und mögliche Korrekturmaßnahmen zu finden. 
+summary: Nutzen Sie das Ransomware Protection Dashboard, um einen Überblick über die Cyber-Ausfallsicherheit aller Ihrer BlueXP-Arbeitsumgebungen und zusätzlichen Datenquellen zu erhalten. Sie können in jedem Bereich nach unten gehen, um weitere Details und mögliche Korrekturmaßnahmen zu finden. 
 ---
 = Verwalten von Cyber-Sicherheitsempfehlungen für Ihre Datenquellen
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: Verwenden Sie das Ransomware Protection Dashboard, um einen Überblick 
 
 
 [role="lead"]
-Verwenden Sie das Ransomware Protection Dashboard, um einen Überblick über die Cyber-Ausfallsicherheit aller Ihrer BlueXP (früher Cloud Manager) Arbeitsumgebungen und Datenquellen zu erhalten. Sie können in jedem Bereich nach unten gehen, um weitere Details und mögliche Korrekturmaßnahmen zu finden.
+Nutzen Sie das Ransomware Protection Dashboard, um einen Überblick über die Cyber-Ausfallsicherheit aller Ihrer BlueXP (früher Cloud Manager) Arbeitsumgebungen und zusätzlichen Datenquellen zu erhalten. Sie können in jedem Bereich nach unten gehen, um weitere Details und mögliche Korrekturmaßnahmen zu finden.
 
 Wählen Sie im Menü BlueXP links die Option *Schutz > Ransomware-Schutz*.
 
@@ -71,7 +71,7 @@ Hier handelt es sich um die derzeit aufgezeichneten Maßnahmen und Lösungsvorsc
 | Empfohlene Maßnahmen | Beschreibung | Mögliche Lösung 
 
 
-| Reduzieren Sie die Berechtigungen für X-sensible Elemente mit breiten Berechtigungen | In Ihren Datenquellen von Cloud Data Sense finden Sie sensible Dateien mit offenen Berechtigungen. Dazu zählen alle sensiblen Daten (personenbezogene Daten und sensible personenbezogene Daten), die „offen für Unternehmen“ oder „öffentlich zugänglich“ sind. | Klicken Sie für jede Datenquelle auf die Schaltfläche *untersuchen* und Sie werden auf die Seite Data Sense Investigation mit der Liste aller Dateien weitergeleitet, die die Kriterien für die empfohlene Aktion in dieser Datenquelle erfüllen. Dann können Sie entscheiden, wie Sie die breiten Berechtigungen auf diese Dateien reduzieren. 
+| Reduzieren Sie die Berechtigungen für X-sensible Elemente mit breiten Berechtigungen | In Ihren Datenquellen von Cloud Data Sense finden Sie sensible Dateien mit offenen Berechtigungen. Dazu zählen alle sensiblen Daten (personenbezogene Daten und sensible personenbezogene Daten), die „offen für Unternehmen“ oder „öffentlich zugänglich“ sind. | Klicken Sie für jede Datenquelle auf die Schaltfläche *untersuchen* und Sie werden zur Seite Data Sense Investigation weitergeleitet, auf der Sie alle gefährdeten sensiblen Dateien anzeigen und weitere Maßnahmen ergreifen können, um dieses Risiko zu reduzieren. Dazu gehört auch, wie die breiten Berechtigungen auf diesen Dateien reduziert werden können. 
 
 
 | Verschieben Sie X-sensible Elemente von nicht geschützten Y-Datenquellen in sichere Speicherorte | Sensible Daten sind durch Cloud Data Sense in ungeschützten Datenquellen vorhanden. An diesen Orten kann die Ransomware-Datensicherungssoftware nicht schützen. In der Regel verfügen IT-Abteilungen über Richtlinien, die sensible Daten von bestimmten Unternehmensstandorten einschränken. Diese empfohlene Aktion ermöglicht es Ihnen, die Dateien mit sensiblen Daten zu identifizieren und sie in eine sicherere Datenquelle zu verschieben, wo sensible *gespeichert werden darf. | Mit Data Sense können Sie diese Dateien schnell in eine besser geschützte Datenquelle verschieben. Sie werden die Funktion „Data Sense“ nutzen https://docs.netapp.com/us-en/cloud-manager-data-sense/task-managing-highlights.html#moving-source-files-to-an-nfs-share["Quelldateien in eine NFS-Freigabe verschieben"^]. 
@@ -221,10 +221,10 @@ In diesem Bereich werden zunächst Daten basierend auf den von uns ausgewählten
 
 Das Diagramm zeigt eine Berechtigungsanalyse aller Daten, die den Kriterien Ihrer Richtlinien entsprechen. Hier werden die Anzahl der Elemente aufgeführt, die:
 
-* Offen für öffentliche Berechtigungen – die Elemente, die Data Sense als öffentlich betrachtet
+* Offen für öffentliche Berechtigungen - die Elemente, die Data Sense als offen für die Öffentlichkeit betrachtet
 * Offen für Unternehmensberechtigungen – die Elemente, die von Data Sense als für Unternehmen offen erachtet werden
-* Keine offenen Berechtigungen – die Elemente, die Data Sense als keine offenen Berechtigungen betrachtet
-* Unbekannte Berechtigungen – die Elemente, die Data Sense als unbekannte Berechtigungen betrachtet
+* Keine offenen Berechtigungen - die Elemente, die Data Sense als keine offenen Berechtigungen betrachtet
+* Unbekannte Berechtigungen - die Elemente, die Data Sense als unbekannte Berechtigungen betrachtet
 
 
 Bewegen Sie den Mauszeiger über die einzelnen Balken in den Diagrammen, um die Anzahl der Ergebnisse in jeder Kategorie anzuzeigen. Klicken Sie auf eine Leiste, und die Seite Data Sense Investigation wird angezeigt. So können Sie weitere Informationen darüber finden, welche Elemente über offene Berechtigungen verfügen und ob Sie Anpassungen an Dateiberechtigungen vornehmen sollten.
