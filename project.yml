@@ -19,6 +19,8 @@ sidebar:
     entries:
     - title: Erfahren Sie mehr über Ransomware-Schutz
       url: "/concept-ransomware-protection.html"
+    - title: Überwachen Sie Ransomware-Warnungen im Benachrichtigungszentrum
+      url: "/task-monitor-ransomware-alerts.html"
   - title: Verwenden Sie Ransomware-Schutz
     entries:
     - title: Managen Sie Cyber-Sicherheitsempfehlungen für Ihre Daten

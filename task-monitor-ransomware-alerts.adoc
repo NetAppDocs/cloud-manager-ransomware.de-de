@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task-monitor-ransomware-alerts.html 
+keywords: ransomware, status, monitor, alert, notification 
+summary: Sie können den Status von Ransomware-Warnungen im BlueXP Notification Center anzeigen. Sie können außerdem Benachrichtigungen per E-Mail konfigurieren, damit Sie auch dann über wichtige Systemaktivitäten informiert werden können, wenn Sie nicht beim System angemeldet sind. 
+---
+= Monitoring des Status von Ransomware-Warnmeldungen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Sie können den Status von Ransomware-Warnungen im BlueXP Notification Center anzeigen. Sie können außerdem Benachrichtigungen per E-Mail konfigurieren, damit Sie auch dann über wichtige Systemaktivitäten informiert werden können, wenn Sie nicht beim System angemeldet sind.
+
+Das Notification Center verfolgt den Fortschritt von Ransomware-Zwischenfällen und kann so überprüfen, ob sie gelöst wurden oder nicht. Sie können die Benachrichtigungen anzeigen, indem Sie auf die Schaltfläche ( klickenimage:button_bell_icon.png["Benachrichtigungsglocke"]) In der BlueXP-Menüleiste. Sie können BlueXP auch so konfigurieren, dass Benachrichtigungen per E-Mail als Warnmeldungen gesendet werden.
+
+Derzeit gibt es ein Ereignis, das E-Mail-Benachrichtigungen auslöst:
+
+* Potenzielle Ransomware-Angriffe auf Ihrem System erkannt
+
+
+Standardmäßig erhalten BlueXP-Kontoadministratoren E-Mails für alle „kritischen“ und „Empfehlungsmeldungen“. Alle anderen Benutzer und Empfänger sind standardmäßig so konfiguriert, dass sie keine Benachrichtigungs-E-Mails erhalten. E-Mails können an alle BlueXP Benutzer, die Teil Ihres NetApp Cloud-Kontos sind, oder an alle anderen Empfänger gesendet werden, die auf Sicherheitsvorfälle bei Ransomware achten müssen.
+
+Sie müssen die Benachrichtigungstyp "kritisch" auswählen, um die Ransomware Protection E-Mail-Benachrichtigungen zu erhalten.
+
+https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-monitor-cm-operations.html["Erfahren Sie mehr über das Benachrichtigungscenter"^] Und wie Sie Alarmierung bei Ransomware-Sicherungsvorfällen per E-Mail versenden.

@@ -302,17 +302,20 @@ Denken Sie also daran, Ihre wichtigen Geschäftsdaten über die Richtlinien zur 
 
 == Ransomware-Vorfälle auf Ihren Systemen erkannt
 
-Ransomware-Vorfälle, die auf Ihren gemanagten Systemen erkannt wurden, werden als Warnmeldungen im Fenster „ _Ransomware Incidents_“ angezeigt. Dazu gehören Datenbeschädigung und Verschlüsselungereignisse. In diesem Fenster wird die Anzahl der verschlüsselten Dateien angezeigt, die im verdächtigen Volume identifiziert wurden, die Art der Dateierweiterungen und der Zeitpunkt, zu dem der Angriff stattgefunden hat.
+Ransomware-Vorfälle, die auf Ihren gemanagten Systemen erkannt wurden, werden als Warnmeldungen im Fenster „ _Ransomware Incidents_“ angezeigt. Dazu gehören Verschlüsselungsprozesse, verdächtige Dateiendungen, Ransomware-Aktivitäten und böswillige Aktivitäten. Im Fenster wird die Art des Vorfalls angezeigt, und es wird angezeigt, ob automatische Aktionen ausgeführt wurden, um das Problem zu beheben. Beispielsweise könnte eine Volume Snapshot Kopie generiert und in die Cloud gesendet werden.
 
 image:screenshot_ransomware_incidents.png["Ein Screenshot der Ransomware-Vorfälle Panel."]
 
 Aktuell werden ONTAP Cluster vor Ort unterstützt, auf denen Autonomous Ransomware Protection (ARP) ausgeführt wird. ARP nutzt Workload-Analysen in NAS-Umgebungen (NFS und SMB), um ungewöhnliche Aktivitäten, die auf einen Ransomware-Angriff hinweisen könnten, proaktiv zu erkennen und zu warnen. https://docs.netapp.com/us-en/ontap/anti-ransomware/index.html["Hier erfahren Sie mehr"^].
 
-Um die Vorfälle zu analysieren, müssen Sie NetApp Cloud Secure installiert und konfiguriert haben. https://docs.netapp.com/us-en/cloudinsights/cs_intro.html["Weitere Informationen zu Cloud Secure"^]. Dann können Sie auf die Schaltfläche *Analyse* klicken, um Empfehlungen für Ihre nächsten Schritte bei der Lösung des Problems zu erhalten.
+Sie können auf klicken image:button_down_caret.png[""] Um einen Vorfall zu erweitern, um die Anzahl der verschlüsselten Dateien anzuzeigen, die im verdächtigen Volume identifiziert wurden, die Arten von Dateierweiterungen und den Zeitpunkt, zu dem der Angriff stattgefunden hat.
+
+image:screenshot_ransomware_incidents_expanded.png["Ein Screenshot, der das Ransomware-Störungs-Panel erweitert, um automatische Aktionen für Ihre Volumen zu zeigen."]
+
+Sie können auf die Schaltfläche *Auflösen* klicken, um den Vorfall von der Benutzeroberfläche zu entfernen. Ein Dialogfeld erscheint, um zu sehen, ob der gemeldete Vorfall ein echter Ransomware-Vorfall war oder nicht. Klicken Sie auf *Ja*, wenn das Problem ein echter Ransomware-Vorfall war. Klicken Sie auf *Nein*, wenn das Problem nicht ein echter Ransomware-Vorfall war.
 
 .Voraussetzungen
-* Der BlueXP Connector muss vor Ort installiert werden, nicht bei einem Cloud-Provider.
-* Sie müssen über einen lokalen ONTAP-Cluster verfügen, der ONTAP 9.10.1 oder höher ausführt
-* Sie müssen über eine *MT_EK_MGMT*-Lizenz (Multi-Tenant Key Management) (ONTAP 9.10) oder *Anti_Ransomware*-Lizenz (ONTAP 9.11.1 +) auf mindestens einem Knoten im Cluster verfügen
-* NetApp ARP muss 30 Tage lang, auch „dry run“ genannt, aktiviert sein, bevor die Daten in den „aktiven Modus“ gewechselt werden können, damit ausreichend Zeit zur Beurteilung der Workload-Eigenschaften und zur korrekten Meldung verdächtiger Ransomware-Angriffe vorhanden ist.
+* Sie müssen über einen lokalen ONTAP-Cluster verfügen, der ONTAP 9.11 oder höher ausführt.
+* Sie müssen die *Anti_Ransomware*-Lizenz (ONTAP 9.11.1 +) auf mindestens einem Knoten im Cluster installiert haben.
+* NetApp Autonomous Ransomware Protection (ARP) muss 30 Tage lang zum ersten Mal Learning Period (auch als „dry run“ bekannt) aktiviert sein, bevor er in den „aktiven Modus“ umgeschaltet wird. So hat es ausreichend Zeit, um Workload-Merkmale zu bewerten und mutmaßliche Ransomware-Angriffe korrekt zu melden.
 

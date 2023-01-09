@@ -18,6 +18,16 @@ Alles zum Schutz vor Ransomware.
 
 
 
+== 9 Januar 2023
+
+
+
+=== Unterstützung wurde hinzugefügt, um Ransomware-Schutz-Benachrichtigungen per E-Mail und im Notification Center zu erhalten
+
+Ransomware Protection ist in den BlueXP Notification Service integriert. Sie können Ransomware-Schutzbenachrichtigungen anzeigen, indem Sie in der BlueXP-Menüleiste auf die Benachrichtigungsglocke klicken. Sie können BlueXP auch so konfigurieren, dass Benachrichtigungen per E-Mail als Benachrichtigungen gesendet werden, damit Sie auch dann über wichtige Systemaktivitäten informiert werden können, wenn Sie nicht im System angemeldet sind. Die E-Mail kann an alle Empfänger gesendet werden, die auf Ransomware-Warnungen achten müssen. https://docs.netapp.com/us-en/cloud-manager-ransomware/task-monitor-ransomware-alerts.html["Erfahren Sie, wie"].
+
+
+
 == Bis 11. Dezember 2022
 
 
